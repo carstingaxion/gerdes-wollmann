@@ -15,16 +15,16 @@
      {
       "step": "setSiteOptions",
       "options": {
-        "blogname": "project_urlname",
-        "blogdescription": "CRUD the project_urlname in Playground.",
-        "wordpress_export_to_server__owner_repo_branch": "author_name/project_urlname/main",
-        "wordpress_export_to_server__export_home": "https://project_urlname.test"
+        "blogname": "gerdes-wollmann",
+        "blogdescription": "CRUD the gerdes-wollmann in Playground.",
+        "wordpress_export_to_server__owner_repo_branch": "carstingaxion/gerdes-wollmann/main",
+        "wordpress_export_to_server__export_home": "https://gerdes-wollmann.test"
       }
     },
     {
       "step": "defineWpConfigConsts",
       "consts": {
-          "UPLOADS": "wp-content/project_urlname-main"
+          "UPLOADS": "wp-content/gerdes-wollmann-main"
       }
     },
     {
@@ -46,22 +46,22 @@
     },
     {
       "step": "writeFile",
-      "path": "/wordpress/wp-content/project_urlname.zip",
+      "path": "/wordpress/wp-content/gerdes-wollmann.zip",
       "data": {
         "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=author_name/project_urlname",
-        "caption": "Downloading project_urlname repository."
+        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gerdes-wollmann",
+        "caption": "Downloading gerdes-wollmann repository."
       },
       "progress": {
         "weight": 2,
-        "caption": "Applying project_urlname files."
+        "caption": "Applying gerdes-wollmann files."
       }
     },
     {
       "step": "unzip",
       "zipFile": {
         "resource": "vfs",
-        "path": "/wordpress/wp-content/project_urlname.zip"
+        "path": "/wordpress/wp-content/gerdes-wollmann.zip"
       },
       "extractToPath": "/wordpress/wp-content"
     },
@@ -82,7 +82,7 @@
     },
     {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php';$path = realpath( '/wordpress/wp-content/project_urlname-main/export.xml' );$logger = new WP_Importer_Logger_CLI();$logger->min_level = 'info';$options = array( 'fetch_attachments' => false, 'default_author' => 1,);$importer = new WXR_Importer( $options );$importer->set_logger( $logger );$result = $importer->import( $path );"
+      "code": "<?php require '/wordpress/wp-load.php';$path = realpath( '/wordpress/wp-content/gerdes-wollmann-main/export.xml' );$logger = new WP_Importer_Logger_CLI();$logger->min_level = 'info';$options = array( 'fetch_attachments' => false, 'default_author' => 1,);$importer = new WXR_Importer( $options );$importer->set_logger( $logger );$result = $importer->import( $path );"
     }
   ]
 }
