@@ -1,0 +1,290 @@
+
+/*
+Theme Name: Gerdes Wollmann
+Author: WordPress Telex
+Description: An elegant, warm block theme for the general practitioner office Gerdes & Wollmann, inspired by a garden courtyard aesthetic with cream, forest green, and amber tones.
+Version: 0.1.0
+Requires at least: 6.4
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GPLv2 or later
+Text Domain: gerdes-wollmann
+Tags: block-theme, full-site-editing, medical, elegant
+*/
+
+/* === Equal card layout === */
+.equal-cards > .wp-block-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+.equal-cards > .wp-block-column > .wp-block-group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.equal-cards .cta-bottom {
+    margin-top: auto;
+    justify-content: center;
+}
+
+.wp-site-blocks > footer {
+    margin-block-start: 0;
+}
+
+/* === Header divider line === */
+.gw-header-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--wp--preset--color--amber-light), var(--wp--preset--color--dusty-rose), var(--wp--preset--color--amber-light), transparent);
+    opacity: 0.5;
+    margin-top: 0.5rem;
+}
+
+/* === Navigation styling === */
+.gw-nav .wp-block-navigation__container {
+    gap: clamp(1rem, 2.5vw, 2rem);
+}
+.gw-nav .wp-block-navigation-item a {
+    font-weight: 500;
+    font-size: clamp(0.72rem, 0.6rem + 0.3vw, 0.8rem);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+}
+.gw-nav .wp-block-navigation-item a:hover {
+    opacity: 0.75;
+}
+.gw-nav .wp-block-navigation-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: currentColor;
+    transition: width 0.3s ease;
+}
+.gw-nav .wp-block-navigation-item a:hover::after {
+    width: 100%;
+}
+
+/* === Hero section === */
+.gw-hero {
+    min-height: min(90vh, 900px);
+    position: relative;
+    overflow: hidden;
+}
+.gw-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+        radial-gradient(ellipse at 15% 85%, color-mix(in srgb, var(--wp--preset--color--amber) 6%, transparent) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--wp--preset--color--dusty-rose) 5%, transparent) 0%, transparent 40%);
+    pointer-events: none;
+    z-index: 0;
+}
+.gw-hero > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* === Hero columns — intrinsic stacking === */
+.gw-hero-columns {
+    flex-wrap: wrap;
+}
+.gw-hero-columns > .wp-block-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: min(100%, 340px);
+}
+
+/* === Practice name heading === */
+.gw-practice-name {
+    line-height: 0.95 !important;
+    letter-spacing: -0.03em;
+}
+
+/* === Subtitle label === */
+.gw-subtitle {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+/* === Hours card === */
+.gw-hours-card {
+    position: relative;
+    border: 1px solid color-mix(in srgb, var(--wp--preset--color--amber) 12%, transparent);
+    border-radius: 6px;
+    overflow: visible;
+}
+.gw-hours-card::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 1.5rem;
+    right: 1.5rem;
+    height: 2px;
+    background: linear-gradient(to right, var(--wp--preset--color--amber-light), var(--wp--preset--color--amber), var(--wp--preset--color--amber-light));
+    border-radius: 2px;
+}
+
+/* === Hours row — intrinsic wrapping === */
+.gw-hours-row {
+    border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--aged-paper) 70%, transparent);
+    padding: 0.4rem 0;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+}
+.gw-hours-row:last-child {
+    border-bottom: none;
+}
+
+/* === News pins === */
+.gw-news-pin {
+    border-radius: 5px;
+    border-left: 3px solid var(--wp--preset--color--amber);
+    transform: rotate(-0.5deg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gw-news-pin:hover {
+    transform: rotate(0deg) translateY(-2px);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent);
+}
+.gw-news-pin-alt {
+    border-radius: 5px;
+    border-left: 3px solid var(--wp--preset--color--dusty-rose);
+    transform: rotate(0.4deg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gw-news-pin-alt:hover {
+    transform: rotate(0deg) translateY(-2px);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent);
+}
+
+/* === News columns — intrinsic wrapping === */
+.gw-news-grid {
+    flex-wrap: wrap;
+}
+.gw-news-grid > .wp-block-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: min(100%, 300px);
+}
+
+/* === Image frame === */
+.gw-image-frame {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow:
+        0 4px 20px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent),
+        0 16px 48px color-mix(in srgb, var(--wp--preset--color--forest) 10%, transparent);
+}
+.gw-image-frame::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--wp--preset--color--amber-light) 18%, transparent) 0%, color-mix(in srgb, var(--wp--preset--color--amber-light) 5%, transparent) 40%, transparent 70%);
+    pointer-events: none;
+    border-radius: 8px;
+    z-index: 2;
+}
+.gw-image-frame img {
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 4/5;
+}
+
+/* === Contact strip — intrinsic wrapping === */
+.gw-contact-strip {
+    flex-wrap: wrap;
+    gap: clamp(0.75rem, 2vw, 2.5rem);
+    justify-content: center;
+}
+
+/* === Contact items === */
+.gw-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* === Decorative dot pattern background === */
+.gw-dot-pattern::before {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    width: 80px;
+    height: 80px;
+    opacity: 0.12;
+    background-image: radial-gradient(circle, var(--wp--preset--color--amber) 1.2px, transparent 1.2px);
+    background-size: 12px 12px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* === Services section cards === */
+.gw-service-card {
+    border-radius: 6px;
+    border: 1px solid color-mix(in srgb, var(--wp--preset--color--amber) 10%, transparent);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gw-service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px color-mix(in srgb, var(--wp--preset--color--forest) 10%, transparent);
+}
+
+/* === Footer columns — intrinsic wrapping === */
+.gw-footer-columns {
+    flex-wrap: wrap;
+    gap: clamp(1.5rem, 4vw, 3rem);
+}
+.gw-footer-columns > .wp-block-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: min(100%, 220px);
+}
+
+/* === Footer === */
+.gw-footer a {
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+.gw-footer a:hover {
+    opacity: 0.75;
+}
+
+/* === Animations === */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: no-preference) {
+    .gw-hero .wp-block-columns {
+        animation: fadeInUp 0.8s ease-out both;
+    }
+}
+
+/* === Responsive fine-tuning === */
+@media (max-width: 600px) {
+    .gw-news-pin,
+    .gw-news-pin-alt {
+        transform: none;
+    }
+
+    .gw-hero {
+        min-height: auto;
+    }
+
+    .gw-image-frame img {
+        aspect-ratio: 3/4;
+    }
+}

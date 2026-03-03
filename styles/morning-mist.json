@@ -1,0 +1,116 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "Morning Mist",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "cream",
+                    "color": "#F4F6F8",
+                    "name": "Ice White"
+                },
+                {
+                    "slug": "forest",
+                    "color": "#2C3E50",
+                    "name": "Slate"
+                },
+                {
+                    "slug": "forest-light",
+                    "color": "#5D7B93",
+                    "name": "Steel Blue"
+                },
+                {
+                    "slug": "amber",
+                    "color": "#6B8F71",
+                    "name": "Sage"
+                },
+                {
+                    "slug": "amber-light",
+                    "color": "#A3C4A8",
+                    "name": "Soft Sage"
+                },
+                {
+                    "slug": "dusty-rose",
+                    "color": "#8FA3B0",
+                    "name": "Mist"
+                },
+                {
+                    "slug": "aged-paper",
+                    "color": "#E8ECF0",
+                    "name": "Cloud"
+                },
+                {
+                    "slug": "white",
+                    "color": "#FFFFFF",
+                    "name": "White"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var:preset|color|cream",
+            "text": "var:preset|color|forest"
+        },
+        "typography": {
+            "fontFamily": "var:preset|font-family|dm-sans",
+            "lineHeight": "1.6"
+        },
+        "elements": {
+            "heading": {
+                "color": {
+                    "text": "var:preset|color|forest"
+                },
+                "typography": {
+                    "fontFamily": "var:preset|font-family|source-serif",
+                    "fontWeight": "400",
+                    "lineHeight": "1.2"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontWeight": "300"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontWeight": "300"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontWeight": "500"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontWeight": "500"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var:preset|color|amber"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var:preset|color|forest-light"
+                    }
+                }
+            }
+        },
+        "blocks": {
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var:preset|font-family|dm-sans",
+                    "fontWeight": "500"
+                }
+            },
+            "core/separator": {
+                "color": {
+                    "text": "var:preset|color|dusty-rose"
+                }
+            }
+        }
+    }
+}

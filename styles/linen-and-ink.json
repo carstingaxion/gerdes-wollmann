@@ -1,0 +1,117 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "Linen & Ink",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "cream",
+                    "color": "#F2EDE4",
+                    "name": "Cream"
+                },
+                {
+                    "slug": "forest",
+                    "color": "#1A1A18",
+                    "name": "Ink Black"
+                },
+                {
+                    "slug": "forest-light",
+                    "color": "#3A3A36",
+                    "name": "Charcoal"
+                },
+                {
+                    "slug": "amber",
+                    "color": "#B8860B",
+                    "name": "Dark Gold"
+                },
+                {
+                    "slug": "amber-light",
+                    "color": "#D4A84B",
+                    "name": "Warm Gold"
+                },
+                {
+                    "slug": "dusty-rose",
+                    "color": "#8B7355",
+                    "name": "Umber"
+                },
+                {
+                    "slug": "aged-paper",
+                    "color": "#E8DFD0",
+                    "name": "Aged Paper"
+                },
+                {
+                    "slug": "white",
+                    "color": "#FAF7F2",
+                    "name": "Warm White"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var:preset|color|forest",
+            "text": "var:preset|color|cream"
+        },
+        "typography": {
+            "fontFamily": "var:preset|font-family|lora",
+            "lineHeight": "1.65"
+        },
+        "elements": {
+            "heading": {
+                "color": {
+                    "text": "var:preset|color|cream"
+                },
+                "typography": {
+                    "fontFamily": "var:preset|font-family|playfair",
+                    "fontWeight": "400",
+                    "lineHeight": "1.15"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.02em"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontWeight": "400"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontWeight": "500"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontWeight": "500"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var:preset|color|amber-light"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var:preset|color|amber"
+                    }
+                }
+            }
+        },
+        "blocks": {
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var:preset|font-family|lora",
+                    "fontWeight": "500"
+                }
+            },
+            "core/separator": {
+                "color": {
+                    "text": "var:preset|color|forest-light"
+                }
+            }
+        }
+    }
+}

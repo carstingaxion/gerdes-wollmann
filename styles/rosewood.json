@@ -1,0 +1,118 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "Rosewood",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "cream",
+                    "color": "#FBF5F0",
+                    "name": "Blush White"
+                },
+                {
+                    "slug": "forest",
+                    "color": "#3B2030",
+                    "name": "Rosewood"
+                },
+                {
+                    "slug": "forest-light",
+                    "color": "#6B4453",
+                    "name": "Mauve"
+                },
+                {
+                    "slug": "amber",
+                    "color": "#A0522D",
+                    "name": "Sienna"
+                },
+                {
+                    "slug": "amber-light",
+                    "color": "#C8956A",
+                    "name": "Warm Copper"
+                },
+                {
+                    "slug": "dusty-rose",
+                    "color": "#B07D6A",
+                    "name": "Terra Rosa"
+                },
+                {
+                    "slug": "aged-paper",
+                    "color": "#F0E4DA",
+                    "name": "Parchment"
+                },
+                {
+                    "slug": "white",
+                    "color": "#FFFAF6",
+                    "name": "Ivory"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var:preset|color|cream",
+            "text": "var:preset|color|forest"
+        },
+        "typography": {
+            "fontFamily": "var:preset|font-family|libre-baskerville",
+            "lineHeight": "1.65",
+            "fontSize": "0.95rem"
+        },
+        "elements": {
+            "heading": {
+                "color": {
+                    "text": "var:preset|color|forest"
+                },
+                "typography": {
+                    "fontFamily": "var:preset|font-family|libre-baskerville",
+                    "fontWeight": "700",
+                    "lineHeight": "1.2"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.01em"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontWeight": "400"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontWeight": "700"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontWeight": "700"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var:preset|color|amber"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var:preset|color|dusty-rose"
+                    }
+                }
+            }
+        },
+        "blocks": {
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var:preset|font-family|libre-baskerville",
+                    "fontWeight": "400"
+                }
+            },
+            "core/separator": {
+                "color": {
+                    "text": "var:preset|color|forest-light"
+                }
+            }
+        }
+    }
+}
