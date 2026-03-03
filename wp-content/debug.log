@@ -1,0 +1,32 @@
+[03-Mar-2026 09:22:24 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SELECT option_value FROM wp_options WHERE option_name = 'db_version'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN IMMEDIATE | (no parameters)</li>
+<li>Executing: SELECT `option_value` FROM `wp_options` WHERE `option_name` = &#039;db_version&#039; | (no parameters)</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+SQLSTATE[HY000]: General error: 1 no such table: wp_options
+</div>
+<p>Backtrace:</p>
+<pre>#0 /internal/shared/sqlite-database-integration/wp-includes/sqlite-ast/class-wp-pdo-mysql-on-sqlite.php(921): WP_PDO_MySQL_On_SQLite->new_driver_exception('SQLSTATE[HY000]...', 'HY000', Object(PDOException))
+#1 /internal/shared/sqlite-database-integration/wp-includes/sqlite-ast/class-wp-sqlite-driver.php(160): WP_PDO_MySQL_On_SQLite->query('SELECT option_v...', 5)
+#2 /internal/shared/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(524): WP_SQLite_Driver->query('SELECT option_v...')
+#3 /internal/shared/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(436): WP_SQLite_DB->_do_query('SELECT option_v...')
+#4 /wordpress/wp-includes/class-wpdb.php(4): WP_SQLite_DB->query('SELECT option_v...')
+#5 /wordpress/wp-admin/includes/upgrade.php(39): wpdb->get_var('SELECT option_v...')
+#6 /wordpress/wp-admin/includes/upgrade.php(20): __get_option('db_version')
+#7 /wordpress/wp-admin/upgrade.php(2): wp_upgrade()
+#8 /internal/eval.php(3): require('/wordpress/wp-a...')
+#9 {main}</pre>
+ for query SELECT option_value FROM wp_options WHERE option_name = 'db_version' made by require('wp-admin/upgrade.php'), wp_upgrade, __get_option, WP_SQLite_DB->query, WP_SQLite_DB->print_error
+[03-Mar-2026 09:27:25 UTC] PHP Warning:  Undefined array key 0 in /wordpress/wp-content/plugins/create-block-theme/includes/create-theme/theme-readme.php on line 294
+[03-Mar-2026 09:27:25 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #1 ($search) of type array|string is deprecated in /wordpress/wp-content/plugins/create-block-theme/includes/create-theme/theme-readme.php on line 295
+[03-Mar-2026 09:27:25 UTC] PHP Warning:  Undefined array key 0 in /wordpress/wp-content/plugins/create-block-theme/includes/create-theme/theme-readme.php on line 294
+[03-Mar-2026 09:27:25 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #1 ($search) of type array|string is deprecated in /wordpress/wp-content/plugins/create-block-theme/includes/create-theme/theme-readme.php on line 295
+[03-Mar-2026 09:27:25 UTC] PHP Warning:  Undefined array key 0 in /wordpress/wp-content/plugins/create-block-theme/includes/create-theme/theme-readme.php on line 294
+[03-Mar-2026 09:27:25 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #1 ($search) of type array|string is deprecated in /wordpress/wp-content/plugins/create-block-theme/includes/create-theme/theme-readme.php on line 295
