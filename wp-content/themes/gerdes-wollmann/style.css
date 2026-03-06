@@ -1,4 +1,3 @@
-
 /*
 Theme Name: Gerdes Wollmann
 Author: WordPress Telex
@@ -260,6 +259,32 @@ Tags: block-theme, full-site-editing, medical, elegant
 }
 .gw-footer a:hover {
     opacity: 0.75;
+}
+
+/* === Query loop news cards === */
+.gw-news-query .wp-block-post-template {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--wp--preset--spacing--30);
+}
+@media (max-width: 600px) {
+    .gw-news-query .wp-block-post-template {
+        grid-template-columns: 1fr;
+    }
+}
+.gw-news-query .wp-block-post {
+    border-radius: 5px;
+    border-left: 3px solid var(--wp--preset--color--amber);
+    background: var(--wp--preset--color--white);
+    padding: var(--wp--preset--spacing--30);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gw-news-query .wp-block-post:nth-child(even) {
+    border-left-color: var(--wp--preset--color--dusty-rose);
+}
+.gw-news-query .wp-block-post:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent);
 }
 
 /* === Animations === */
