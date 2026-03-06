@@ -82,7 +82,14 @@
         "weight": 10,
 				"caption": "Deleting the WordPress default themes."
 			}
-    }
+    },
+    {
+            "step": "importWxr",
+            "file": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/refs/heads/main/wp-content/gerdes-wollmann-main/export.xml"
+            }
+        }
   ]
 }
 
