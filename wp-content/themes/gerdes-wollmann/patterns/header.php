@@ -1,0 +1,32 @@
+<?php
+/**
+ * Title: header
+ * Slug: gerdes-wollmann/header
+ * Inserter: no
+ */
+?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"cream","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group has-cream-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400","letterSpacing":"0.08em","textTransform":"uppercase"}},"textColor":"amber","fontSize":"small"} -->
+<p class="has-amber-color has-text-color has-small-font-size" style="font-style:normal;font-weight:400;letter-spacing:0.08em;text-transform:uppercase"><?php esc_html_e('Gemeinschaftspraxis', 'gerdes-wollmann');?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:navigation {"textColor":"forest","className":"gw-nav","style":{"typography":{"fontStyle":"normal","fontWeight":"500","letterSpacing":"0.14em","textTransform":"uppercase"},"spacing":{"blockGap":"2rem"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"right"}} -->
+<!-- wp:navigation-link {"label":"Praxis","url":"#praxis"} /-->
+
+<!-- wp:navigation-link {"label":"Leistungen","url":"#leistungen"} /-->
+
+<!-- wp:navigation-link {"label":"Sprechzeiten","url":"#sprechzeiten"} /-->
+
+<!-- wp:navigation-link {"label":"Aktuelles","url":"#aktuelles"} /-->
+
+<!-- wp:navigation-link {"label":"Kontakt","url":"#kontakt"} /-->
+<!-- /wp:navigation --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"gw-header-divider","style":{"spacing":{"margin":{"top":"0.5rem"}}}} -->
+<div class="wp-block-group gw-header-divider" style="margin-top:0.5rem"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
