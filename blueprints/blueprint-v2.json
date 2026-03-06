@@ -27,7 +27,7 @@
     },
     {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; add_filter( 'import_allow_fetch_attachments', '__return_false' );"
+      "code": "<?php require '/wordpress/wp-load.php'; add_filter( 'import_allow_fetch_attachments', '__return_true' );"
     },
     {
       "step": "login"
