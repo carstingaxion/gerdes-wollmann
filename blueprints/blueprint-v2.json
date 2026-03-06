@@ -83,6 +83,14 @@
 				"caption": "Deleting the WordPress default themes."
 			}
     },
+        {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/wordpress-export-to-server.php",
+      "data": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/carstingaxion/wordpress-export-to-server/main/wordpress-export-to-server.php"
+      }
+    },
     {
             "step": "importWxr",
             "file": {
