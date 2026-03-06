@@ -24,7 +24,7 @@
     {
       "step": "defineWpConfigConsts",
       "consts": {
-          "UPLOADS": "wp-content/gerdes-wollmann-main"
+          "UPLOADS": "wp-content/uploads"
       }
     },
     {
@@ -33,8 +33,7 @@
     },
     {
       "step": "login",
-      "username": "admin",
-      "password": "password"
+      "username": "admin"
     },
     {
       "step": "wp-cli",
@@ -75,7 +74,7 @@
     },
     {
       "step": "installPlugin",
-      "pluginZipFile": {
+      "pluginData": {
         "resource": "url",
         "url": "https://github-proxy.com/proxy/?repo=humanmade/WordPress-Importer"
       }

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "landingPage": "https://playground.wordpress.net/wp-admin/themes.php",
+  "steps": [
+     {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "gerdes-wollmann",
+        "blogdescription": "CRUD the gerdes-wollmann in Playground.",
+        "wordpress_export_to_server__owner_repo_branch": "carstingaxion/gerdes-wollmann/main",
+        "wordpress_export_to_server__export_home": "https://gerdes-wollmann.test"
+      }
+    },
+    {
+      "step": "defineWpConfigConsts",
+      "consts": {
+          "UPLOADS": "wp-content/uploads"
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; add_filter( 'import_allow_fetch_attachments', '__return_false' );"
+    },
+    {
+      "step": "login"
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "create-block-theme"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "git:directory",
+        "url": "https://github.com/carstingaxion/gerdes-wollmann",
+        "ref": "main",
+        "refType": "branch",
+        "path": "wp-content/themes/gerdes-wollmann"
+      },
+      "options": {
+        "activate": true,
+        "targetFolderName": "gerdes-wollmann"
+      },
+      "progress": {
+        "caption": "Installing theme from GitHub: carstingaxion/gerdes-wollmann (main)"
+      }
+    }
+  ]
+}
+
+
