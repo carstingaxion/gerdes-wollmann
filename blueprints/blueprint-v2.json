@@ -7,7 +7,7 @@
   "features": {
     "networking": true
   },
-  "landingPage": "/wp-admin/themes.php",
+  "landingPage": "/wp-admin/site-editor.php",
   "steps": [
      {
       "step": "setSiteOptions",
@@ -21,7 +21,8 @@
     {
       "step": "defineWpConfigConsts",
       "consts": {
-          "UPLOADS": "wp-content/uploads"
+          "UPLOADS": "wp-content/uploads",
+          "CORE_UPGRADE_SKIP_NEW_BUNDLED": true
       }
     },
     {
@@ -30,6 +31,22 @@
     },
     {
       "step": "login"
+    },
+    {
+      "step": "wp-cli",
+      "command": " wp post delete 1 2 3 --force",
+      "progress": {
+        "weight": 10,
+				"caption": "Deleting the WordPress default content."
+			}
+    },
+    {
+      "step": "wp-cli",
+      "command": " wp plugin delete hello-dolly",
+      "progress": {
+        "weight": 10,
+				"caption": "Deleting the WordPress default plugins."
+			}
     },
     {
       "step": "installPlugin",
@@ -57,6 +74,14 @@
       "progress": {
         "caption": "Installing theme from GitHub: carstingaxion/gerdes-wollmann (main)"
       }
+    },
+        {
+      "step": "wp-cli",
+      "command": " wp theme delete twentytwentyfive",
+      "progress": {
+        "weight": 10,
+				"caption": "Deleting the WordPress default themes."
+			}
     }
   ]
 }
