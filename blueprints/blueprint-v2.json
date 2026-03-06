@@ -7,7 +7,7 @@
   "features": {
     "networking": true
   },
-  "landingPage": "https://playground.wordpress.net/wp-admin/themes.php",
+  "landingPage": "wp-admin/themes.php",
   "steps": [
      {
       "step": "setSiteOptions",
