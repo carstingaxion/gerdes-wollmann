@@ -9,13 +9,21 @@
   },
   "landingPage": "/wp-admin/site-editor.php",
   "steps": [
+    {
+        "step": "setSiteLanguage",
+        "language": "de_DE"
+    },
      {
       "step": "setSiteOptions",
       "options": {
-        "blogname": "gerdes-wollmann",
-        "blogdescription": "CRUD the gerdes-wollmann in Playground.",
+        "blogname": "Gerdes & Wollmann",
+        "blogdescription": "Gemeinschaftspraxis",
         "wordpress_export_to_server__owner_repo_branch": "carstingaxion/gerdes-wollmann/main",
-        "wordpress_export_to_server__export_home": "https://gerdes-wollmann.test"
+        "wordpress_export_to_server__export_home": "https://gerdes-wollmann.test",
+		"timezone_string": "Europe/Berlin",
+		"date_format": "d. F Y",
+		"time_format": "H:i",
+		"start_of_week": "1"
       }
     },
     {
