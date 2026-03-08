@@ -264,8 +264,8 @@ Tags: block-theme, full-site-editing, medical, elegant
 /* === Query loop news cards === */
 .gw-news-query .wp-block-post-template {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--wp--preset--spacing--30);
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: var(--wp--preset--spacing--30); */
 }
 @media (max-width: 600px) {
     .gw-news-query .wp-block-post-template {
