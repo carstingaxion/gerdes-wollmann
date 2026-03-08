@@ -133,13 +133,13 @@ echo sprintf( esc_html__( 'Gerdes%1$s%2$s&%3$s Wollmann', 'gerdes-wollmann' ), '
 <p class="has-text-align-center has-accent-1-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-weight:500;letter-spacing:0.16em;text-transform:uppercase"><?php esc_html_e('Neuigkeiten und Hinweise', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:query {"queryId":1,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"gw-news-query","layout":{"type":"default"}} -->
+<!-- wp:query {"queryId":1,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"className":"gw-news-query","layout":{"type":"default"}} -->
 <div class="wp-block-query gw-news-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"30rem"}} -->
 <!-- wp:post-date {"format":"j. F Y","metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} /-->
 
 <!-- wp:post-title {"level":4,"isLink":true,"style":{"typography":{"fontWeight":"500","lineHeight":"1.35"},"spacing":{"margin":{"top":"0.5rem"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|accent-1"}}}}},"fontSize":"large"} /-->
 
-<!-- wp:post-excerpt {"moreText":"<?php esc_attr_e('Weiterlesen', 'gerdes-wollmann');?>","excerptLength":28,"style":{"typography":{"lineHeight":"1.65"},"spacing":{"margin":{"top":"0.75rem"}},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"},":hover":{"color":{"text":"var:preset|color|accent-3"}}}}},"textColor":"contrast-2","fontSize":"medium"} /-->
+<!-- wp:post-content {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"textColor":"contrast-2","fontSize":"medium"} /-->
 <!-- /wp:post-template -->
 
 <!-- wp:query-no-results -->
