@@ -46,18 +46,30 @@
                     "name": "Accent 4"
                 }
             ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Libre Baskerville', Georgia, serif",
+                    "slug": "heading",
+                    "name": "Heading"
+                },
+                {
+                    "fontFamily": "'Libre Baskerville', Georgia, serif",
+                    "slug": "body",
+                    "name": "Body"
+                }
+            ]
         }
     },
     "styles": {
         "typography": {
-            "fontFamily": "var:preset|font-family|libre-baskerville",
             "lineHeight": "1.65",
             "fontSize": "0.95rem"
         },
         "elements": {
             "heading": {
                 "typography": {
-                    "fontFamily": "var:preset|font-family|libre-baskerville",
                     "fontWeight": "700",
                     "lineHeight": "1.2"
                 }
@@ -92,12 +104,6 @@
             }
         },
         "blocks": {
-            "core/navigation": {
-                "typography": {
-                    "fontFamily": "var:preset|font-family|libre-baskerville",
-                    "fontWeight": "400"
-                }
-            },
             "core/separator": {
                 "color": {
                     "text": "var:preset|color|contrast-2"

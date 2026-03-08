@@ -46,16 +46,26 @@
                     "name": "Accent 4"
                 }
             ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Source Serif 4', Georgia, serif",
+                    "slug": "heading",
+                    "name": "Heading"
+                },
+                {
+                    "fontFamily": "'DM Sans', 'Helvetica Neue', sans-serif",
+                    "slug": "body",
+                    "name": "Body"
+                }
+            ]
         }
     },
     "styles": {
-        "typography": {
-            "fontFamily": "var:preset|font-family|dm-sans"
-        },
         "elements": {
             "heading": {
                 "typography": {
-                    "fontFamily": "var:preset|font-family|source-serif",
                     "lineHeight": "1.2"
                 }
             },
@@ -78,11 +88,6 @@
             }
         },
         "blocks": {
-            "core/navigation": {
-                "typography": {
-                    "fontFamily": "var:preset|font-family|dm-sans"
-                }
-            },
             "core/separator": {
                 "color": {
                     "text": "var:preset|color|accent-3"

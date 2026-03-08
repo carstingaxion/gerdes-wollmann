@@ -46,6 +46,20 @@
                     "name": "Accent 4"
                 }
             ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Playfair Display', Georgia, serif",
+                    "slug": "heading",
+                    "name": "Heading"
+                },
+                {
+                    "fontFamily": "'Lora', Georgia, serif",
+                    "slug": "body",
+                    "name": "Body"
+                }
+            ]
         }
     },
     "styles": {
@@ -54,16 +68,12 @@
             "text": "var:preset|color|base"
         },
         "typography": {
-            "fontFamily": "var:preset|font-family|lora",
             "lineHeight": "1.65"
         },
         "elements": {
             "heading": {
                 "color": {
                     "text": "var:preset|color|base"
-                },
-                "typography": {
-                    "fontFamily": "var:preset|font-family|playfair"
                 }
             },
             "h1": {
@@ -83,11 +93,6 @@
             }
         },
         "blocks": {
-            "core/navigation": {
-                "typography": {
-                    "fontFamily": "var:preset|font-family|lora"
-                }
-            },
             "core/separator": {
                 "color": {
                     "text": "var:preset|color|contrast-2"
