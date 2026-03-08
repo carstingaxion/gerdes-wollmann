@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.9.1" created="2026-03-06 18:08" -->
+	<!-- generator="WordPress/6.9.1" created="2026-03-08 13:43" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>gerdes-wollmann</title>
 	<link>https://gerdes-wollmann.test</link>
 	<description>CRUD the gerdes-wollmann in Playground.</description>
-	<pubDate>Fri, 06 Mar 2026 18:08:39 +0000</pubDate>
+	<pubDate>Sun, 08 Mar 2026 13:43:02 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://gerdes-wollmann.test</wp:base_site_url>
@@ -57,37 +57,44 @@
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Uncategorized]]></wp:term_name>
 	</wp:term>
+		<wp:term>
+		<wp:term_id>3</wp:term_id>
+		<wp:term_taxonomy><![CDATA[wp_template_part_area]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[uncategorized]]></wp:term_name>
+	</wp:term>
 		
 	<generator>https://wordpress.org/?v=6.9.1</generator>
 
 		<item>
-		<title><![CDATA[CRUD the docs with Playground]]></title>
+		<title><![CDATA[Corona-Impfungen sind weiterhin möglich]]></title>
 		<link>https://gerdes-wollmann.test/2024/06/12/crud-the-docs-with-playground/</link>
 		<pubDate>Wed, 12 Jun 2024 15:16:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=173</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Start now and</p>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><strong>Bei Interesse melden Sie sich bitte telefonisch oder sprechen uns an.</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/carstingaxion/crud-the-docs-playground">Create &amp; Save Demo Data</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
+<!-- wp:paragraph -->
+<p>Die Impfung wird aktuell (lt. STIKO) allen&nbsp;über 60-jährigen empfohlen, die in den letzten 12 Monaten keine Corona-Impfung erhalten haben bzw. in den letzten 12 Monaten nicht mit Corona infiziert waren.</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>using WordPress Playground!</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->]]></content:encoded>
+<p>Prinzipiell möchten wir uns an die STIKO-Empfehlung halten. Sollten die oben genannten Kriterien nicht auf Sie zutreffen, Sie aber dennoch eine Corona-Impfung erhalten möchten, sprechen Sie uns gern an.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vorab können Sie sich auf der Seite des RKI über die Impfung informieren. Wir impfen mit dem aktuellen Varianten-angepassten Impfstoff von Biontech/Pfizer.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>173</wp:post_id>
 		<wp:post_date><![CDATA[2024-06-12 15:16:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-06-12 15:16:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-06-12 15:16:37]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-06-12 15:16:37]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-08 13:38:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-08 13:38:20]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[crud-the-docs-with-playground]]></wp:post_name>
@@ -99,6 +106,14 @@
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -151,8 +166,8 @@
 		<wp:post_id>174</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:48:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:48:43]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-06 15:48:43]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-06 15:48:43]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-08 13:42:51]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-08 13:42:51]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-gerdes-wollmann]]></wp:post_name>
@@ -165,21 +180,25 @@
 										<category domain="wp_theme" nicename="gerdes-wollmann"><![CDATA[gerdes-wollmann]]></category>
 						</item>
 					<item>
-		<title><![CDATA[New opening]]></title>
+		<title><![CDATA[Hinweis für Patientinnen und Patienten mit Infektzeichen]]></title>
 		<link>https://gerdes-wollmann.test/2026/03/06/new-opening/</link>
 		<pubDate>Fri, 06 Mar 2026 15:49:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=178</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>On first april</p>
+<p>Sollten bei Ihnen Krankheitssymptome wie Husten, Schnupfen und erhöhte Temperatur vorliegen, bitten wir Sie, in unserer Praxis einen Mund- Nasen-Schutz zu tragen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>So schützen Sie sich und andere Patienten.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>178</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:49:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:49:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-06 15:49:37]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-06 15:49:37]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-08 13:38:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-08 13:38:44]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[new-opening]]></wp:post_name>
@@ -222,27 +241,49 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[with image]]></title>
+		<title><![CDATA[Schließzeit wegen Umbau]]></title>
 		<link>https://gerdes-wollmann.test/2026/03/06/with-image/</link>
 		<pubDate>Fri, 06 Mar 2026 15:54:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=181</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:image {"id":183,"width":"737px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/color-palette-3.png" alt="" class="wp-image-183" style="width:737px;height:auto"/></figure>
-<!-- /wp:image -->
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Vom&nbsp;24.03. bis 31.03.2026&nbsp;bleibt unsere Praxis wegen Umstellung des Computersystems&nbsp;geschlossen.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:image {"id":183,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/color-palette-3.png" alt="" class="wp-image-183"/></figure>
-<!-- /wp:image -->]]></content:encoded>
+<!-- wp:paragraph -->
+<p>Wir werden in dieser Zeit durch folgende Praxen vertreten:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>25.-27.3.2026: <strong>Praxis U.Hanke/ H.Anz</strong>, Tel.: 0345/67838 47</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>30.03.2026: <strong>Susanne Büchel</strong> , Tel.: 0345/2029288</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>31.03.2026: <strong>Dr. med. Paul Adolphi</strong>, Tel.: 0345/5230863</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>181</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:54:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:54:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-06 18:08:34]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-06 18:08:34]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-08 13:40:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-08 13:40:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[with-image]]></wp:post_name>
@@ -278,8 +319,12 @@
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[183]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -313,6 +358,81 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:400;s:6:"height";i:75;s:4:"file";s:27:"2026/03/color-palette-3.png";s:8:"filesize";i:1102;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:26:"color-palette-3-300x56.png";s:5:"width";i:300;s:6:"height";i:56;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:619;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"color-palette-3-150x75.png";s:5:"width";i:150;s:6:"height";i:75;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:349;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Urlaub 2026]]></title>
+		<link>https://gerdes-wollmann.test/2026/03/08/urlaub-2026/</link>
+		<pubDate>Sun, 08 Mar 2026 13:40:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=195</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>26.01.-30.01.2026&nbsp;Fr. Dr. Darmochwal</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>02.02.-06.02.2026&nbsp;Fr. Dr. Gerdes und Fr. Wollmann</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>23.02.-27.02.2026&nbsp;Fr. Dr. Gerdes und Fr. Wollmann</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>25.05.-29.05.2026&nbsp;Fr. Wollmann</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>01.06.-05.06.2026&nbsp;Fr. Dr. Gerdes</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>13.07.-24.07.2026&nbsp;Fr. Wollmann</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>27.07.-07.08.2026&nbsp;Fr. Dr. Gerdes</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>​</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Während der Urlaubszeit bleibt die Praxis vormittags wie üblich geöffnet.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Nachmittags haben wir während des Urlaubs ausschließlich am&nbsp;</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Dienstag: 15-16 Uhr geöffnet. Dafür bitten wir um telefonische Anmeldung.</strong></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>195</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-08 13:40:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-08 13:40:50]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-08 13:41:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-08 13:41:22]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[urlaub-2026]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>1</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
