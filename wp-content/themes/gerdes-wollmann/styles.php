@@ -11,5 +11,5 @@ add_action( 'after_setup_theme', function () {
 } );
 
 add_action( 'wp_enqueue_scripts', function () {
-	wp_enqueue_style( 'telex-theme-style', get_stylesheet_uri(), [], wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'gerdes-wollmann-theme-style', get_stylesheet_uri(), [], wp_get_theme()->get( 'Version' ) );
 } );
