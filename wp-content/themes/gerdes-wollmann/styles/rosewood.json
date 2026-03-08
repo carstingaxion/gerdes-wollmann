@@ -6,53 +6,49 @@
         "color": {
             "palette": [
                 {
-                    "slug": "cream",
+                    "slug": "base",
                     "color": "#FBF5F0",
-                    "name": "Blush White"
+                    "name": "Base"
                 },
                 {
-                    "slug": "forest",
-                    "color": "#3B2030",
-                    "name": "Rosewood"
-                },
-                {
-                    "slug": "forest-light",
-                    "color": "#6B4453",
-                    "name": "Mauve"
-                },
-                {
-                    "slug": "amber",
-                    "color": "#A0522D",
-                    "name": "Sienna"
-                },
-                {
-                    "slug": "amber-light",
-                    "color": "#C8956A",
-                    "name": "Warm Copper"
-                },
-                {
-                    "slug": "dusty-rose",
-                    "color": "#B07D6A",
-                    "name": "Terra Rosa"
-                },
-                {
-                    "slug": "aged-paper",
-                    "color": "#F0E4DA",
-                    "name": "Parchment"
-                },
-                {
-                    "slug": "white",
+                    "slug": "base-2",
                     "color": "#FFFAF6",
-                    "name": "Ivory"
+                    "name": "Base 2"
+                },
+                {
+                    "slug": "contrast",
+                    "color": "#3B2030",
+                    "name": "Contrast"
+                },
+                {
+                    "slug": "contrast-2",
+                    "color": "#6B4453",
+                    "name": "Contrast 2"
+                },
+                {
+                    "slug": "accent-1",
+                    "color": "#A0522D",
+                    "name": "Accent 1"
+                },
+                {
+                    "slug": "accent-2",
+                    "color": "#C8956A",
+                    "name": "Accent 2"
+                },
+                {
+                    "slug": "accent-3",
+                    "color": "#B07D6A",
+                    "name": "Accent 3"
+                },
+                {
+                    "slug": "accent-4",
+                    "color": "#F0E4DA",
+                    "name": "Accent 4"
                 }
             ]
         }
     },
     "styles": {
-        "color": {
-            "background": "var:preset|color|cream",
-            "text": "var:preset|color|forest"
-        },
         "typography": {
             "fontFamily": "var:preset|font-family|libre-baskerville",
             "lineHeight": "1.65",
@@ -60,9 +56,6 @@
         },
         "elements": {
             "heading": {
-                "color": {
-                    "text": "var:preset|color|forest"
-                },
                 "typography": {
                     "fontFamily": "var:preset|font-family|libre-baskerville",
                     "fontWeight": "700",
@@ -91,12 +84,9 @@
                 }
             },
             "link": {
-                "color": {
-                    "text": "var:preset|color|amber"
-                },
                 ":hover": {
                     "color": {
-                        "text": "var:preset|color|dusty-rose"
+                        "text": "var:preset|color|accent-3"
                     }
                 }
             }
@@ -110,7 +100,7 @@
             },
             "core/separator": {
                 "color": {
-                    "text": "var:preset|color|forest-light"
+                    "text": "var:preset|color|contrast-2"
                 }
             }
         }

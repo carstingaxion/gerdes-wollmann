@@ -34,7 +34,7 @@ Tags: block-theme, full-site-editing, medical, elegant
 /* === Header divider line === */
 .gw-header-divider {
     height: 1px;
-    background: linear-gradient(to right, transparent, var(--wp--preset--color--amber-light), var(--wp--preset--color--dusty-rose), var(--wp--preset--color--amber-light), transparent);
+    background: linear-gradient(to right, transparent, var(--wp--preset--color--accent-2), var(--wp--preset--color--accent-3), var(--wp--preset--color--accent-2), transparent);
     opacity: 0.5;
     margin-top: 0.5rem;
 }
@@ -81,8 +81,8 @@ Tags: block-theme, full-site-editing, medical, elegant
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background:
-        radial-gradient(ellipse at 15% 85%, color-mix(in srgb, var(--wp--preset--color--amber) 6%, transparent) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--wp--preset--color--dusty-rose) 5%, transparent) 0%, transparent 40%);
+        radial-gradient(ellipse at 15% 85%, color-mix(in srgb, var(--wp--preset--color--accent-1) 6%, transparent) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--wp--preset--color--accent-3) 5%, transparent) 0%, transparent 40%);
     pointer-events: none;
     z-index: 0;
 }
@@ -116,7 +116,7 @@ Tags: block-theme, full-site-editing, medical, elegant
 /* === Hours card === */
 .gw-hours-card {
     position: relative;
-    border: 1px solid color-mix(in srgb, var(--wp--preset--color--amber) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--wp--preset--color--accent-1) 12%, transparent);
     border-radius: 6px;
     overflow: visible;
 }
@@ -127,13 +127,13 @@ Tags: block-theme, full-site-editing, medical, elegant
     left: 1.5rem;
     right: 1.5rem;
     height: 2px;
-    background: linear-gradient(to right, var(--wp--preset--color--amber-light), var(--wp--preset--color--amber), var(--wp--preset--color--amber-light));
+    background: linear-gradient(to right, var(--wp--preset--color--accent-2), var(--wp--preset--color--accent-1), var(--wp--preset--color--accent-2));
     border-radius: 2px;
 }
 
 /* === Hours row — intrinsic wrapping === */
 .gw-hours-row {
-    border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--aged-paper) 70%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--accent-4) 70%, transparent);
     padding: 0.4rem 0;
     flex-wrap: wrap;
     gap: 0.25rem 1rem;
@@ -145,23 +145,23 @@ Tags: block-theme, full-site-editing, medical, elegant
 /* === News pins === */
 .gw-news-pin {
     border-radius: 5px;
-    border-left: 3px solid var(--wp--preset--color--amber);
+    border-left: 3px solid var(--wp--preset--color--accent-1);
     transform: rotate(-0.5deg);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .gw-news-pin:hover {
     transform: rotate(0deg) translateY(-2px);
-    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--contrast) 12%, transparent);
 }
 .gw-news-pin-alt {
     border-radius: 5px;
-    border-left: 3px solid var(--wp--preset--color--dusty-rose);
+    border-left: 3px solid var(--wp--preset--color--accent-3);
     transform: rotate(0.4deg);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .gw-news-pin-alt:hover {
     transform: rotate(0deg) translateY(-2px);
-    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--contrast) 12%, transparent);
 }
 
 /* === News columns — intrinsic wrapping === */
@@ -180,14 +180,14 @@ Tags: block-theme, full-site-editing, medical, elegant
     border-radius: 8px;
     overflow: hidden;
     box-shadow:
-        0 4px 20px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent),
-        0 16px 48px color-mix(in srgb, var(--wp--preset--color--forest) 10%, transparent);
+        0 4px 20px color-mix(in srgb, var(--wp--preset--color--contrast) 12%, transparent),
+        0 16px 48px color-mix(in srgb, var(--wp--preset--color--contrast) 10%, transparent);
 }
 .gw-image-frame::after {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, color-mix(in srgb, var(--wp--preset--color--amber-light) 18%, transparent) 0%, color-mix(in srgb, var(--wp--preset--color--amber-light) 5%, transparent) 40%, transparent 70%);
+    background: linear-gradient(135deg, color-mix(in srgb, var(--wp--preset--color--accent-2) 18%, transparent) 0%, color-mix(in srgb, var(--wp--preset--color--accent-2) 5%, transparent) 40%, transparent 70%);
     pointer-events: none;
     border-radius: 8px;
     z-index: 2;
@@ -224,7 +224,7 @@ Tags: block-theme, full-site-editing, medical, elegant
     width: 80px;
     height: 80px;
     opacity: 0.12;
-    background-image: radial-gradient(circle, var(--wp--preset--color--amber) 1.2px, transparent 1.2px);
+    background-image: radial-gradient(circle, var(--wp--preset--color--accent-1) 1.2px, transparent 1.2px);
     background-size: 12px 12px;
     pointer-events: none;
     z-index: 0;
@@ -233,12 +233,12 @@ Tags: block-theme, full-site-editing, medical, elegant
 /* === Services section cards === */
 .gw-service-card {
     border-radius: 6px;
-    border: 1px solid color-mix(in srgb, var(--wp--preset--color--amber) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--wp--preset--color--accent-1) 10%, transparent);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .gw-service-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 24px color-mix(in srgb, var(--wp--preset--color--forest) 10%, transparent);
+    box-shadow: 0 8px 24px color-mix(in srgb, var(--wp--preset--color--contrast) 10%, transparent);
 }
 
 /* === Footer columns — intrinsic wrapping === */
@@ -274,17 +274,17 @@ Tags: block-theme, full-site-editing, medical, elegant
 }
 .gw-news-query .wp-block-post {
     border-radius: 5px;
-    border-left: 3px solid var(--wp--preset--color--amber);
-    background: var(--wp--preset--color--white);
+    border-left: 3px solid var(--wp--preset--color--accent-1);
+    background: var(--wp--preset--color--base-2);
     padding: var(--wp--preset--spacing--30);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .gw-news-query .wp-block-post:nth-child(even) {
-    border-left-color: var(--wp--preset--color--dusty-rose);
+    border-left-color: var(--wp--preset--color--accent-3);
 }
 .gw-news-query .wp-block-post:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--forest) 12%, transparent);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--wp--preset--color--contrast) 12%, transparent);
 }
 
 /* === Animations === */

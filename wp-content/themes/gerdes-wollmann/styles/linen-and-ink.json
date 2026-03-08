@@ -6,52 +6,52 @@
         "color": {
             "palette": [
                 {
-                    "slug": "cream",
+                    "slug": "base",
                     "color": "#F2EDE4",
-                    "name": "Cream"
+                    "name": "Base"
                 },
                 {
-                    "slug": "forest",
-                    "color": "#1A1A18",
-                    "name": "Ink Black"
-                },
-                {
-                    "slug": "forest-light",
-                    "color": "#3A3A36",
-                    "name": "Charcoal"
-                },
-                {
-                    "slug": "amber",
-                    "color": "#B8860B",
-                    "name": "Dark Gold"
-                },
-                {
-                    "slug": "amber-light",
-                    "color": "#D4A84B",
-                    "name": "Warm Gold"
-                },
-                {
-                    "slug": "dusty-rose",
-                    "color": "#8B7355",
-                    "name": "Umber"
-                },
-                {
-                    "slug": "aged-paper",
-                    "color": "#E8DFD0",
-                    "name": "Aged Paper"
-                },
-                {
-                    "slug": "white",
+                    "slug": "base-2",
                     "color": "#FAF7F2",
-                    "name": "Warm White"
+                    "name": "Base 2"
+                },
+                {
+                    "slug": "contrast",
+                    "color": "#1A1A18",
+                    "name": "Contrast"
+                },
+                {
+                    "slug": "contrast-2",
+                    "color": "#3A3A36",
+                    "name": "Contrast 2"
+                },
+                {
+                    "slug": "accent-1",
+                    "color": "#B8860B",
+                    "name": "Accent 1"
+                },
+                {
+                    "slug": "accent-2",
+                    "color": "#D4A84B",
+                    "name": "Accent 2"
+                },
+                {
+                    "slug": "accent-3",
+                    "color": "#8B7355",
+                    "name": "Accent 3"
+                },
+                {
+                    "slug": "accent-4",
+                    "color": "#E8DFD0",
+                    "name": "Accent 4"
                 }
             ]
         }
     },
     "styles": {
         "color": {
-            "background": "var:preset|color|forest",
-            "text": "var:preset|color|cream"
+            "background": "var:preset|color|contrast",
+            "text": "var:preset|color|base"
         },
         "typography": {
             "fontFamily": "var:preset|font-family|lora",
@@ -60,42 +60,24 @@
         "elements": {
             "heading": {
                 "color": {
-                    "text": "var:preset|color|cream"
+                    "text": "var:preset|color|base"
                 },
                 "typography": {
-                    "fontFamily": "var:preset|font-family|playfair",
-                    "fontWeight": "400",
-                    "lineHeight": "1.15"
+                    "fontFamily": "var:preset|font-family|playfair"
                 }
             },
             "h1": {
                 "typography": {
-                    "fontWeight": "400",
                     "letterSpacing": "-0.02em"
-                }
-            },
-            "h2": {
-                "typography": {
-                    "fontWeight": "400"
-                }
-            },
-            "h3": {
-                "typography": {
-                    "fontWeight": "500"
-                }
-            },
-            "h4": {
-                "typography": {
-                    "fontWeight": "500"
                 }
             },
             "link": {
                 "color": {
-                    "text": "var:preset|color|amber-light"
+                    "text": "var:preset|color|accent-2"
                 },
                 ":hover": {
                     "color": {
-                        "text": "var:preset|color|amber"
+                        "text": "var:preset|color|accent-1"
                     }
                 }
             }
@@ -103,13 +85,12 @@
         "blocks": {
             "core/navigation": {
                 "typography": {
-                    "fontFamily": "var:preset|font-family|lora",
-                    "fontWeight": "500"
+                    "fontFamily": "var:preset|font-family|lora"
                 }
             },
             "core/separator": {
                 "color": {
-                    "text": "var:preset|color|forest-light"
+                    "text": "var:preset|color|contrast-2"
                 }
             }
         }
