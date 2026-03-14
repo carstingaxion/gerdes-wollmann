@@ -20,10 +20,41 @@
         "blogdescription": "Gemeinschaftspraxis",
         "wordpress_export_to_server__owner_repo_branch": "carstingaxion/gerdes-wollmann/main",
         "wordpress_export_to_server__export_home": "https://gerdes-wollmann.test",
-		"timezone_string": "Europe/Berlin",
-		"date_format": "d. F Y",
-		"time_format": "H:i",
-		"start_of_week": "1"
+        "timezone_string": "Europe/Berlin",
+        "date_format": "d. F Y",
+        "time_format": "H:i",
+        "start_of_week": "1",
+        				"telex_hours_seasons": [
+					{
+						"name": "Sprechzeiten",
+						"beginDate": "2026-03-01",
+						"endDate": "2050-12-31",
+						"hours": {
+							"sun": [
+								{ "open": "07:00", "close": "10:00" }
+							],
+							"mon": [
+								{ "open": "07:30", "close": "12:00" },
+								{ "open": "13:00", "close": "15:00" }
+							],
+							"tue": [
+								{ "open": "07:30", "close": "12:00" },
+								{ "open": "13:00", "close": "15:00" }
+							],
+							"wed": [
+								{ "open": "07:30", "close": "12:00" },
+								{ "open": "11:00", "close": "12:00" }
+							],
+							"thu": [
+								{ "open": "07:30", "close": "12:00" },
+								{ "open": "11:00", "close": "13:00" }
+							],
+							"fri": [
+								{ "open": "07:30", "close": "16:00" }
+							]
+						}
+					}
+				]
       }
     },
     {
@@ -66,6 +97,30 @@
         "activate": true
       }
     },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "view-transitions"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/carstingaxion/todays-hours-plugin",
+				"ref": "HEAD"
+			},
+			"options": {
+				"activate": true
+			},
+			"progress": {
+				"caption": "Installing plugin from GitHub: carstingaxion/todays-hours-plugin"
+			}
+		},
     {
       "step": "installTheme",
       "themeData": {
