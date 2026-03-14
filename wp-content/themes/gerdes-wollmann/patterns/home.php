@@ -24,60 +24,12 @@ echo sprintf( esc_html__( 'Gerdes%1$s%2$s&%3$s Wollmann', 'gerdes-wollmann' ), '
 <p class="has-contrast-2-color has-text-color has-large-font-size" style="font-style:italic;font-weight:400;line-height:1.7"><?php esc_html_e('Ihre Gesundheit in vertrauten Händen. Persönlich, nahbar und seit Jahren Teil Ihrer Nachbarschaft.', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"gw-hours-card","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"var:preset|spacing|40"}},"border":{"radius":"6px"}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group gw-hours-card has-base-2-background-color has-background" style="border-radius:6px;margin-top:var(--wp--preset--spacing--40);padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
-<h4 class="wp-block-heading has-accent-1-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase"><?php esc_html_e('Sprechzeiten', 'gerdes-wollmann');?></h4>
+<!-- wp:group {"style":{"border":{"radius":{"topLeft":"9px","topRight":"9px","bottomLeft":"9px","bottomRight":"9px"},"top":{"color":"var:preset|color|accent-1","width":"2px"},"right":[],"bottom":[],"left":[]}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-base-2-background-color has-background" style="border-top-left-radius:9px;border-top-right-radius:9px;border-bottom-left-radius:9px;border-bottom-right-radius:9px;border-top-color:var(--wp--preset--color--accent-1);border-top-width:2px"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}},"typography":{"textTransform":"uppercase"}},"textColor":"accent-1","fontSize":"small"} -->
+<h2 class="wp-block-heading has-accent-1-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e('Sprechzeiten', 'gerdes-wollmann');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:group {"className":"gw-hours-row","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group gw-hours-row" style="margin-top:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php esc_html_e('Montag', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-contrast-2-color has-text-color has-small-font-size"><?php esc_html_e('08:00 – 12:00 / 15:00 – 18:00', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"gw-hours-row","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group gw-hours-row"><!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php esc_html_e('Dienstag', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-contrast-2-color has-text-color has-small-font-size"><?php esc_html_e('08:00 – 12:00 / 15:00 – 18:00', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"gw-hours-row","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group gw-hours-row"><!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php esc_html_e('Mittwoch', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-contrast-2-color has-text-color has-small-font-size"><?php esc_html_e('08:00 – 12:00', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"gw-hours-row","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group gw-hours-row"><!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php esc_html_e('Donnerstag', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-contrast-2-color has-text-color has-small-font-size"><?php esc_html_e('08:00 – 12:00 / 15:00 – 18:00', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"gw-hours-row","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group gw-hours-row"><!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php esc_html_e('Freitag', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-contrast-2-color has-text-color has-small-font-size"><?php esc_html_e('08:00 – 12:00', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- wp:telex/block-telex-hours-block {"showTodaysDate":false} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -99,7 +51,8 @@ echo sprintf( esc_html__( 'Gerdes%1$s%2$s&%3$s Wollmann', 'gerdes-wollmann' ), '
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size"><?php esc_html_e('0345 678 23 33', 'gerdes-wollmann');?></p>
+<p class="has-contrast-color has-text-color has-medium-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( '%1$s0345 678 23 33%2$s', 'gerdes-wollmann' ), '<a href="' . esc_url( 'tel:03456782333' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -108,8 +61,9 @@ echo sprintf( esc_html__( 'Gerdes%1$s%2$s&%3$s Wollmann', 'gerdes-wollmann' ), '
 <p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase"><?php esc_html_e('E-Mail', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size"><?php esc_html_e('praxis@gerdes-wollmann.de', 'gerdes-wollmann');?></p>
+<!-- wp:paragraph -->
+<p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( '%1$spraxis@gerdes-wollmann.de%2$s', 'gerdes-wollmann' ), '<a href="' . esc_url( 'mailto:praxis@gerdes-wollmann.de' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
