@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.9.1" created="2026-03-08 13:44" -->
+	<!-- generator="WordPress/6.9.4" created="2026-03-14 16:08" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,11 +26,11 @@
 >
 
 <channel>
-	<title>gerdes-wollmann</title>
+	<title>Gerdes &#38; Wollmann</title>
 	<link>https://gerdes-wollmann.test</link>
-	<description>CRUD the gerdes-wollmann in Playground.</description>
-	<pubDate>Sun, 08 Mar 2026 13:44:58 +0000</pubDate>
-	<language>en-US</language>
+	<description>Gemeinschaftspraxis</description>
+	<pubDate>Sat, 14 Mar 2026 16:08:23 +0000</pubDate>
+	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://gerdes-wollmann.test</wp:base_site_url>
 	<wp:base_blog_url>https://gerdes-wollmann.test</wp:base_blog_url>
@@ -65,7 +65,7 @@
 		<wp:term_name><![CDATA[uncategorized]]></wp:term_name>
 	</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.9.1</generator>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
 
 		<item>
 		<title><![CDATA[Corona-Impfungen sind weiterhin möglich]]></title>
@@ -93,8 +93,8 @@
 		<wp:post_id>173</wp:post_id>
 		<wp:post_date><![CDATA[2024-06-12 15:16:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-06-12 15:16:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-08 13:44:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-08 13:44:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-06-12 15:16:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-06-12 15:16:37]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[crud-the-docs-with-playground]]></wp:post_name>
@@ -154,7 +154,11 @@
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
@@ -165,13 +169,13 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/03/06/wp-global-styles-gerdes-wollmann/</guid>
 		<description></description>
-		<content:encoded><![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
+		<content:encoded><![CDATA[{"styles":{"blocks":{"core\/paragraph":{"color":{"text":"var:preset|color|contrast"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|accent-1"}}}},"typography":{"fontSize":"var:preset|font-size|medium"}}}},"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>174</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:48:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:48:43]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-08 13:42:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-08 13:42:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-14 17:05:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-14 16:05:54]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-gerdes-wollmann]]></wp:post_name>
@@ -191,7 +195,7 @@
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=178</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Sollten bei Ihnen Krankheitssymptome wie Husten, Schnupfen und erhöhte Temperatur vorliegen, bitten wir Sie, in unserer Praxis einen Mund- Nasen-Schutz zu tragen.</p>
+<p>Sollten bei Ihnen Krankheitssymptome wie Husten, Schnupfen und erhöhte Temperatur vorliegen, bitten wir Sie, in unserer Praxis einen Mund-Nasen-Schutz zu tragen.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -201,8 +205,8 @@
 		<wp:post_id>178</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:49:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:49:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-08 13:44:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-08 13:44:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-14 17:08:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-14 16:08:05]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[new-opening]]></wp:post_name>
@@ -254,7 +258,11 @@
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
@@ -275,23 +283,23 @@
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li>25.-27.3.2026: <strong>Praxis U.Hanke/ H.Anz</strong>, Tel.: 0345/67838 47</li>
+<li>25.-27.3.2026: <strong>Praxis U.Hanke/ H.Anz</strong>, Tel.: <a href="tel:03456783847">0345 67838 47</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>30.03.2026: <strong>Susanne Büchel</strong> , Tel.: 0345/2029288</li>
+<li>30.03.2026: <strong>Susanne Büchel</strong> , Tel.: <a href="tel:03452029288">0345 2029288</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>31.03.2026: <strong>Dr. med. Paul Adolphi</strong>, Tel.: 0345/5230863</li>
+<li>31.03.2026: <strong>Dr. med. Paul Adolphi</strong>, Tel.: <a href="tel:03455230863">0345 5230863</a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>181</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:54:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:54:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-08 13:44:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-08 13:44:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-14 17:07:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-14 16:07:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[with-image]]></wp:post_name>
@@ -335,7 +343,11 @@
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
@@ -379,33 +391,35 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=195</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>26.01.-30.01.2026&nbsp;Fr. Dr. Darmochwal</p>
-<!-- /wp:paragraph -->
+		<content:encoded><![CDATA[<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>26.01.-30.01.2026&nbsp;Fr. Dr. Darmochwal</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>02.02.-06.02.2026&nbsp;Fr. Dr. Gerdes und Fr. Wollmann</p>
-<!-- /wp:paragraph -->
+<!-- wp:list-item -->
+<li>02.02.-06.02.2026&nbsp;Fr. Dr. Gerdes und Fr. Wollmann</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>23.02.-27.02.2026&nbsp;Fr. Dr. Gerdes und Fr. Wollmann</p>
-<!-- /wp:paragraph -->
+<!-- wp:list-item -->
+<li>23.02.-27.02.2026&nbsp;Fr. Dr. Gerdes und Fr. Wollmann</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>25.05.-29.05.2026&nbsp;Fr. Wollmann</p>
-<!-- /wp:paragraph -->
+<!-- wp:list-item -->
+<li>25.05.-29.05.2026&nbsp;Fr. Wollmann</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>01.06.-05.06.2026&nbsp;Fr. Dr. Gerdes</p>
-<!-- /wp:paragraph -->
+<!-- wp:list-item -->
+<li>01.06.-05.06.2026&nbsp;Fr. Dr. Gerdes</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>13.07.-24.07.2026&nbsp;Fr. Wollmann</p>
-<!-- /wp:paragraph -->
+<!-- wp:list-item -->
+<li>13.07.-24.07.2026&nbsp;Fr. Wollmann</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>27.07.-07.08.2026&nbsp;Fr. Dr. Gerdes</p>
-<!-- /wp:paragraph -->
+<!-- wp:list-item -->
+<li>27.07.-07.08.2026&nbsp;Fr. Dr. Gerdes</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
 
 <!-- wp:paragraph -->
 <p>​</p>
@@ -426,8 +440,8 @@
 		<wp:post_id>195</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-08 13:40:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-08 13:40:50]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-08 13:41:22]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-08 13:41:22]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-14 17:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-14 16:06:49]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[urlaub-2026]]></wp:post_name>
@@ -445,6 +459,211 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Blog-Titelseite]]></title>
+		<link>https://gerdes-wollmann.test/2026/03/14/home/</link>
+		<pubDate>Sat, 14 Mar 2026 15:59:55 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/03/14/home/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"gerdes-wollmann","area":"header"} /-->
+
+<!-- wp:group {"className":"gw-hero gw-dot-pattern","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group gw-hero gw-dot-pattern has-base-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"gw-hero-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns gw-hero-columns"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":1,"className":"gw-practice-name","style":{"typography":{"fontWeight":"300","lineHeight":"0.95","letterSpacing":"-0.03em"}},"textColor":"contrast","fontSize":"huge"} -->
+<h1 class="wp-block-heading gw-practice-name has-contrast-color has-text-color has-huge-font-size" style="font-weight:300;letter-spacing:-0.03em;line-height:0.95">Gerdes<br><em>&amp;</em> Wollmann</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"gw-subtitle","style":{"typography":{"letterSpacing":"0.15em","textTransform":"uppercase","fontWeight":"400"},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|40"}}},"textColor":"accent-3","fontSize":"medium"} -->
+<p class="gw-subtitle has-accent-3-color has-text-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--40);font-weight:400;letter-spacing:0.15em;text-transform:uppercase">Fachärztinnnen für Allgemeinmedizin</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.7","fontStyle":"italic","fontWeight":"400"}},"textColor":"contrast-2","fontSize":"large"} -->
+<p class="has-contrast-2-color has-text-color has-large-font-size" style="font-style:italic;font-weight:400;line-height:1.7">Ihre Gesundheit in vertrauten Händen. Persönlich, nahbar und seit Jahren Teil Ihrer Nachbarschaft.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"border":{"radius":{"topLeft":"9px","topRight":"9px","bottomLeft":"9px","bottomRight":"9px"},"top":{"color":"var:preset|color|accent-1","width":"2px"},"right":{},"bottom":{},"left":{}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-base-2-background-color has-background" style="border-top-left-radius:9px;border-top-right-radius:9px;border-bottom-left-radius:9px;border-bottom-right-radius:9px;border-top-color:var(--wp--preset--color--accent-1);border-top-width:2px"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}},"typography":{"textTransform":"uppercase"}},"textColor":"accent-1","fontSize":"small"} -->
+<h2 class="wp-block-heading has-accent-1-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase">Sprechzeiten</h2>
+<!-- /wp:heading -->
+
+<!-- wp:telex/block-telex-hours-block {"showTodaysDate":false} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"className":"gw-image-frame","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group gw-image-frame" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-image size-large has-custom-border"><img src="theme:./assets/design-preview-3-hero.png" alt="AI_IMAGE: A warm sunlit view through a clean glass window of a small German medical practice, looking out onto a courtyard garden with flowering window boxes, terracotta pots with herbs, and soft natural daylight filtering through. The interior shows a glimpse of a wooden reception desk with a small vase of wildflowers. Warm amber and green tones dominate. The mood is intimate, welcoming, and homely, like a neighborhood practice that has been there for decades. Shallow depth of field with bokeh on the garden elements. | photorealistic | portrait" style="border-radius:8px"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"gw-contact-strip","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"accent-4","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+<div class="wp-block-group gw-contact-strip has-accent-4-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
+<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase">Telefon</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"contrast","fontSize":"medium"} -->
+<p class="has-contrast-color has-text-color has-medium-font-size"><a href="tel:03456782333">0345 678 23 33</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
+<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase">E-Mail</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="mailto:praxis@gerdes-wollmann.de">praxis@gerdes-wollmann.de</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
+<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase">Adresse</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"textColor":"contrast","fontSize":"medium"} -->
+<p class="has-contrast-color has-text-color has-medium-font-size">Ludwig-Wucherer-Str. 10, 06108 Halle (Saale)</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group has-base-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"300"},"spacing":{"margin":{"bottom":"0.5rem"}}},"textColor":"contrast","fontSize":"xx-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color has-xx-large-font-size" style="margin-bottom:0.5rem;font-weight:300">Aktuelles aus der Praxis</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"textColor":"accent-1","fontSize":"small"} -->
+<p class="has-text-align-center has-accent-1-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-weight:500;letter-spacing:0.16em;text-transform:uppercase">Neuigkeiten und Hinweise</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"queryId":1,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"className":"gw-news-query","layout":{"type":"default"}} -->
+<div class="wp-block-query gw-news-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"30rem"}} -->
+<!-- wp:post-date {"format":"j. F Y","metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} /-->
+
+<!-- wp:post-title {"level":4,"isLink":true,"style":{"typography":{"fontWeight":"500","lineHeight":"1.35"},"spacing":{"margin":{"top":"0.5rem"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|accent-1"}}}}},"fontSize":"large"} /-->
+
+<!-- wp:post-content {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"textColor":"contrast-2","fontSize":"medium"} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"textColor":"contrast-2","fontSize":"medium"} -->
+<p class="has-text-align-center has-contrast-2-color has-text-color has-medium-font-size" style="font-style:italic;font-weight:400">Derzeit gibt es keine aktuellen Meldungen.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"gerdes-wollmann","area":"footer"} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Zeigt die letzten Beiträge entweder als Homepage der Website oder als „Beitragsseite“ an, wie unter den Einstellungen „Lesen“ definiert. Falls vorhanden, überschreibt das Titelseiten-Template dieses Template, wenn Beiträge auf der Homepage angezeigt werden.]]></excerpt:encoded>
+		<wp:post_id>196</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-14 16:59:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-14 15:59:55]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-14 17:05:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-14 16:05:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="gerdes-wollmann"><![CDATA[gerdes-wollmann]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[footer]]></title>
+		<link>https://gerdes-wollmann.test/2026/03/14/footer/</link>
+		<pubDate>Sat, 14 Mar 2026 16:01:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/03/14/footer/</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:group {"className":"gw-footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group gw-footer has-base-color has-contrast-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"gw-footer-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns gw-footer-columns"><!-- wp:column {"width":"40%"} -->
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"300","lineHeight":"1"}},"textColor":"base","fontSize":"x-large"} -->
+<h3 class="wp-block-heading has-base-color has-text-color has-x-large-font-size" style="font-weight:300;line-height:1">Gerdes &amp; Wollmann</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.15em","textTransform":"uppercase"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"accent-1","fontSize":"small"} -->
+<p class="has-accent-1-color has-text-color has-small-font-size" style="margin-top:0.5rem;letter-spacing:0.15em;text-transform:uppercase">Fachärztinnnen für Allgemeinmedizin</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.7"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"accent-4","fontSize":"medium"} -->
+<p class="has-accent-4-color has-text-color has-medium-font-size" style="margin-top:1.25rem;line-height:1.7">Ihre Gesundheit in vertrauten Händen. Persönlich, nahbar und seit Jahren Teil Ihrer Nachbarschaft.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"30%"} -->
+<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
+<h4 class="wp-block-heading has-accent-1-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase">Kontakt</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.8"},"spacing":{"margin":{"top":"1rem"}}},"textColor":"accent-4","fontSize":"medium"} -->
+<p class="has-accent-4-color has-text-color has-medium-font-size" style="margin-top:1rem;line-height:1.8">Ludwig-Wucherer-Str. 10, 06108 Halle (Saale)<br>Telefon: <a href="tel:03456782333">0345 678 23 33</a><br><a href="mailto:praxis@gerdes-wollmann.de">praxis@gerdes-wollmann.de</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"30%"} -->
+<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
+<h4 class="wp-block-heading has-accent-1-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase">Sprechzeiten</h4>
+<!-- /wp:heading -->
+
+<!-- wp:telex/block-telex-hours-block {"displayMode":"day","showReasonClosed":false,"friendlyTwelves":false} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:separator {"className":"is-style-wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|30"}}},"backgroundColor":"contrast-2"} -->
+<hr class="wp-block-separator has-text-color has-contrast-2-color has-alpha-channel-opacity has-contrast-2-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--30)"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}},"textColor":"contrast-2","fontSize":"small"} -->
+<p class="has-text-align-center has-contrast-2-color has-text-color has-small-font-size" style="line-height:1.5">Created with and powered by <a href="https://wordpress.org" target="_blank" rel="noopener noreferrer">WordPress</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>197</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-14 17:01:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-14 16:01:57]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-14 17:01:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-14 16:01:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="gerdes-wollmann"><![CDATA[gerdes-wollmann]]></category>
+		<category domain="wp_template_part_area" nicename="uncategorized"><![CDATA[uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
