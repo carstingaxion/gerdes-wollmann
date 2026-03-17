@@ -5,8 +5,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"className":"gw-footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group gw-footer has-base-color has-contrast-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"gw-footer-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
+<!-- wp:group {"className":"gw-footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"backgroundColor":"contrast","textColor":"base-2","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div id="kontakt" class="wp-block-group gw-footer has-base-2-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"verticalAlignment":null,"className":"gw-footer-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns gw-footer-columns"><!-- wp:column {"width":"40%"} -->
 <div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"300","lineHeight":"1"}},"textColor":"base","fontSize":"x-large"} -->
 <h3 class="wp-block-heading has-base-color has-text-color has-x-large-font-size" style="font-weight:300;line-height:1"><?php esc_html_e('Gerdes &amp; Wollmann', 'gerdes-wollmann');?></h3>
@@ -32,9 +32,9 @@ echo sprintf( esc_html__( 'Ludwig-Wucherer-Str. 10, 06108 Halle (Saale)%1$sTelef
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"30%"} -->
-<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
-<h4 class="wp-block-heading has-accent-1-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase"><?php esc_html_e('Sprechzeiten', 'gerdes-wollmann');?></h4>
+<!-- wp:column {"verticalAlignment":"bottom","width":"30%"} -->
+<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"fontSize":"small"} -->
+<h4 class="wp-block-heading has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase"><?php esc_html_e('Heute', 'gerdes-wollmann');?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:telex/block-telex-hours-block {"displayMode":"day","showReasonClosed":false,"friendlyTwelves":false} /--></div>
