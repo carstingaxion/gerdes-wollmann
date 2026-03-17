@@ -322,8 +322,25 @@
 				}
 			},
 			"core/paragraph": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--accent-1)"
+							}
+						},
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						}
+					}
+				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontStyle": "italic",
+					"fontWeight": "400"
 				}
 			},
 			"core/post-date": {
