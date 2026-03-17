@@ -44,10 +44,11 @@ echo sprintf( esc_html__( 'Gerdes%1$s%2$s&%3$s Wollmann', 'gerdes-wollmann' ), '
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"gw-contact-strip","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"accent-4","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-<div class="wp-block-group gw-contact-strip has-accent-4-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
-<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase"><?php esc_html_e('Telefon', 'gerdes-wollmann');?></p>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"accent-4","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-accent-4-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","className":"gw-contact-strip","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|80","right":"var:preset|spacing|80"},"margin":{"top":"0"}}},"backgroundColor":"accent-4","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide gw-contact-strip has-accent-4-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--80)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"align":"right","style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-3","fontSize":"small"} -->
+<p class="has-text-align-right has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;text-transform:uppercase"><?php esc_html_e('Telefon', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -56,9 +57,9 @@ echo sprintf( esc_html__( '%1$s0345 678 23 33%2$s', 'gerdes-wollmann' ), '<a hre
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
-<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase"><?php esc_html_e('E-Mail', 'gerdes-wollmann');?></p>
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"align":"right","style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-3","fontSize":"small"} -->
+<p class="has-text-align-right has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;text-transform:uppercase"><?php esc_html_e('E-Mail', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -68,13 +69,14 @@ echo sprintf( esc_html__( '%1$spraxis@gerdes-wollmann.de%2$s', 'gerdes-wollmann'
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
-<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase"><?php esc_html_e('Adresse', 'gerdes-wollmann');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"align":"right","style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-3","fontSize":"small"} -->
+<p class="has-text-align-right has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;text-transform:uppercase"><?php esc_html_e('Adresse', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
 <p class="has-medium-font-size"><?php esc_html_e('Ludwig-Wucherer-Str. 10, 06108 Halle (Saale)', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
