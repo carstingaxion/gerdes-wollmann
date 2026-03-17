@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.9.4" created="2026-03-14 16:08" -->
+	<!-- generator="WordPress/6.9.4" created="2026-03-17 12:35" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Gerdes &#38; Wollmann</title>
 	<link>https://gerdes-wollmann.test</link>
 	<description>Gemeinschaftspraxis</description>
-	<pubDate>Sat, 14 Mar 2026 16:08:23 +0000</pubDate>
+	<pubDate>Tue, 17 Mar 2026 12:35:46 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://gerdes-wollmann.test</wp:base_site_url>
@@ -49,6 +49,13 @@
 		<wp:term_slug><![CDATA[gerdes-wollmann]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[gerdes-wollmann]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>4</wp:term_id>
+		<wp:term_taxonomy><![CDATA[wp_template_part_area]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[header]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[header]]></wp:term_name>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>1</wp:term_id>
@@ -161,6 +168,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
@@ -169,13 +184,13 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/03/06/wp-global-styles-gerdes-wollmann/</guid>
 		<description></description>
-		<content:encoded><![CDATA[{"styles":{"blocks":{"core\/paragraph":{"color":{"text":"var:preset|color|contrast"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|accent-1"}}}},"typography":{"fontSize":"var:preset|font-size|medium"}}}},"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
+		<content:encoded><![CDATA[{"styles":[],"settings":[],"isGlobalStylesUserThemeJSON":true,"version":3}]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>174</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:48:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:48:43]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-14 17:05:54]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-14 16:05:54]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-17 13:35:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-17 12:35:32]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-gerdes-wollmann]]></wp:post_name>
@@ -205,8 +220,8 @@
 		<wp:post_id>178</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:49:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:49:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-14 17:08:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-14 16:08:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-06 15:49:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-06 15:49:37]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[new-opening]]></wp:post_name>
@@ -218,6 +233,14 @@
 		<wp:is_sticky>1</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -298,8 +321,8 @@
 		<wp:post_id>181</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:54:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:54:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-14 17:07:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-14 16:07:39]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-06 15:54:27]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-06 15:54:27]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[with-image]]></wp:post_name>
@@ -311,6 +334,14 @@
 		<wp:is_sticky>1</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -440,8 +471,8 @@
 		<wp:post_id>195</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-08 13:40:50]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-08 13:40:50]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-14 17:06:49]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-14 16:06:49]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-08 13:40:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-08 13:40:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[urlaub-2026]]></wp:post_name>
@@ -468,204 +499,150 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Blog-Titelseite]]></title>
-		<link>https://gerdes-wollmann.test/2026/03/14/home/</link>
-		<pubDate>Sat, 14 Mar 2026 15:59:55 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/03/14/home/</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:template-part {"slug":"header","theme":"gerdes-wollmann","area":"header"} /-->
-
-<!-- wp:group {"className":"gw-hero gw-dot-pattern","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group gw-hero gw-dot-pattern has-base-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"gw-hero-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns gw-hero-columns"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":1,"className":"gw-practice-name","style":{"typography":{"fontWeight":"300","lineHeight":"0.95","letterSpacing":"-0.03em"}},"textColor":"contrast","fontSize":"huge"} -->
-<h1 class="wp-block-heading gw-practice-name has-contrast-color has-text-color has-huge-font-size" style="font-weight:300;letter-spacing:-0.03em;line-height:0.95">Gerdes<br><em>&amp;</em> Wollmann</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"className":"gw-subtitle","style":{"typography":{"letterSpacing":"0.15em","textTransform":"uppercase","fontWeight":"400"},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|40"}}},"textColor":"accent-3","fontSize":"medium"} -->
-<p class="gw-subtitle has-accent-3-color has-text-color has-medium-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--40);font-weight:400;letter-spacing:0.15em;text-transform:uppercase">Fachärztinnnen für Allgemeinmedizin</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.7","fontStyle":"italic","fontWeight":"400"}},"textColor":"contrast-2","fontSize":"large"} -->
-<p class="has-contrast-2-color has-text-color has-large-font-size" style="font-style:italic;font-weight:400;line-height:1.7">Ihre Gesundheit in vertrauten Händen. Persönlich, nahbar und seit Jahren Teil Ihrer Nachbarschaft.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:group {"style":{"border":{"radius":{"topLeft":"9px","topRight":"9px","bottomLeft":"9px","bottomRight":"9px"},"top":{"color":"var:preset|color|accent-1","width":"2px"},"right":{},"bottom":{},"left":{}}},"backgroundColor":"base-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-base-2-background-color has-background" style="border-top-left-radius:9px;border-top-right-radius:9px;border-bottom-left-radius:9px;border-bottom-right-radius:9px;border-top-color:var(--wp--preset--color--accent-1);border-top-width:2px"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}},"typography":{"textTransform":"uppercase"}},"textColor":"accent-1","fontSize":"small"} -->
-<h2 class="wp-block-heading has-accent-1-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase">Sprechzeiten</h2>
-<!-- /wp:heading -->
-
-<!-- wp:telex/block-telex-hours-block {"showTodaysDate":false} /--></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"className":"gw-image-frame","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group gw-image-frame" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"8px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="theme:./assets/design-preview-3-hero.png" alt="AI_IMAGE: A warm sunlit view through a clean glass window of a small German medical practice, looking out onto a courtyard garden with flowering window boxes, terracotta pots with herbs, and soft natural daylight filtering through. The interior shows a glimpse of a wooden reception desk with a small vase of wildflowers. Warm amber and green tones dominate. The mood is intimate, welcoming, and homely, like a neighborhood practice that has been there for decades. Shallow depth of field with bokeh on the garden elements. | photorealistic | portrait" style="border-radius:8px"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"gw-contact-strip","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"accent-4","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-<div class="wp-block-group gw-contact-strip has-accent-4-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
-<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase">Telefon</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size"><a href="tel:03456782333">0345 678 23 33</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
-<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase">E-Mail</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="mailto:praxis@gerdes-wollmann.de">praxis@gerdes-wollmann.de</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500","lineHeight":"1"}},"textColor":"accent-3","fontSize":"small"} -->
-<p class="has-accent-3-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.12em;line-height:1;text-transform:uppercase">Adresse</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"contrast","fontSize":"medium"} -->
-<p class="has-contrast-color has-text-color has-medium-font-size">Ludwig-Wucherer-Str. 10, 06108 Halle (Saale)</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group has-base-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"300"},"spacing":{"margin":{"bottom":"0.5rem"}}},"textColor":"contrast","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color has-xx-large-font-size" style="margin-bottom:0.5rem;font-weight:300">Aktuelles aus der Praxis</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"align":"center","style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"textColor":"accent-1","fontSize":"small"} -->
-<p class="has-text-align-center has-accent-1-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-weight:500;letter-spacing:0.16em;text-transform:uppercase">Neuigkeiten und Hinweise</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:query {"queryId":1,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"className":"gw-news-query","layout":{"type":"default"}} -->
-<div class="wp-block-query gw-news-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"30rem"}} -->
-<!-- wp:post-date {"format":"j. F Y","metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"style":{"typography":{"letterSpacing":"0.12em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} /-->
-
-<!-- wp:post-title {"level":4,"isLink":true,"style":{"typography":{"fontWeight":"500","lineHeight":"1.35"},"spacing":{"margin":{"top":"0.5rem"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|accent-1"}}}}},"fontSize":"large"} /-->
-
-<!-- wp:post-content {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"textColor":"contrast-2","fontSize":"medium"} /-->
-<!-- /wp:post-template -->
-
-<!-- wp:query-no-results -->
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"textColor":"contrast-2","fontSize":"medium"} -->
-<p class="has-text-align-center has-contrast-2-color has-text-color has-medium-font-size" style="font-style:italic;font-weight:400">Derzeit gibt es keine aktuellen Meldungen.</p>
-<!-- /wp:paragraph -->
-<!-- /wp:query-no-results --></div>
-<!-- /wp:query --></div>
-<!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"footer","theme":"gerdes-wollmann","area":"footer"} /-->]]></content:encoded>
-		<excerpt:encoded><![CDATA[Zeigt die letzten Beiträge entweder als Homepage der Website oder als „Beitragsseite“ an, wie unter den Einstellungen „Lesen“ definiert. Falls vorhanden, überschreibt das Titelseiten-Template dieses Template, wenn Beiträge auf der Homepage angezeigt werden.]]></excerpt:encoded>
-		<wp:post_id>196</wp:post_id>
-		<wp:post_date><![CDATA[2026-03-14 16:59:55]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-03-14 15:59:55]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-14 17:05:55]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-14 16:05:55]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_template]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="gerdes-wollmann"><![CDATA[gerdes-wollmann]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[footer]]></title>
-		<link>https://gerdes-wollmann.test/2026/03/14/footer/</link>
-		<pubDate>Sat, 14 Mar 2026 16:01:57 +0000</pubDate>
+		<title><![CDATA[Menü]]></title>
+		<link>https://gerdes-wollmann.test/2026/03/17/menue/</link>
+		<pubDate>Tue, 17 Mar 2026 11:21:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/03/14/footer/</guid>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=198</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:group {"className":"gw-footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group gw-footer has-base-color has-contrast-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"gw-footer-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns gw-footer-columns"><!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"300","lineHeight":"1"}},"textColor":"base","fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-base-color has-text-color has-x-large-font-size" style="font-weight:300;line-height:1">Gerdes &amp; Wollmann</h3>
-<!-- /wp:heading -->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Sprechzeiten","url":"/#sprechzeiten","kind":"custom"} /-->
 
-<!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.15em","textTransform":"uppercase"},"spacing":{"margin":{"top":"0.5rem"}}},"textColor":"accent-1","fontSize":"small"} -->
-<p class="has-accent-1-color has-text-color has-small-font-size" style="margin-top:0.5rem;letter-spacing:0.15em;text-transform:uppercase">Fachärztinnnen für Allgemeinmedizin</p>
-<!-- /wp:paragraph -->
+<!-- wp:navigation-link {"label":"Aktuelles","url":"/#aktuelles","kind":"custom"} /-->
 
-<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.7"},"spacing":{"margin":{"top":"1.25rem"}}},"textColor":"accent-4","fontSize":"medium"} -->
-<p class="has-accent-4-color has-text-color has-medium-font-size" style="margin-top:1.25rem;line-height:1.7">Ihre Gesundheit in vertrauten Händen. Persönlich, nahbar und seit Jahren Teil Ihrer Nachbarschaft.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"30%"} -->
-<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
-<h4 class="wp-block-heading has-accent-1-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase">Kontakt</h4>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.8"},"spacing":{"margin":{"top":"1rem"}}},"textColor":"accent-4","fontSize":"medium"} -->
-<p class="has-accent-4-color has-text-color has-medium-font-size" style="margin-top:1rem;line-height:1.8">Ludwig-Wucherer-Str. 10, 06108 Halle (Saale)<br>Telefon: <a href="tel:03456782333">0345 678 23 33</a><br><a href="mailto:praxis@gerdes-wollmann.de">praxis@gerdes-wollmann.de</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"30%"} -->
-<div class="wp-block-column" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
-<h4 class="wp-block-heading has-accent-1-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase">Sprechzeiten</h4>
-<!-- /wp:heading -->
-
-<!-- wp:telex/block-telex-hours-block {"displayMode":"day","showReasonClosed":false,"friendlyTwelves":false} /--></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
-
-<!-- wp:separator {"className":"is-style-wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|30"}}},"backgroundColor":"contrast-2"} -->
-<hr class="wp-block-separator has-text-color has-contrast-2-color has-alpha-channel-opacity has-contrast-2-background-color has-background is-style-wide" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--30)"/>
-<!-- /wp:separator -->
-
-<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.5"}},"textColor":"contrast-2","fontSize":"small"} -->
-<p class="has-text-align-center has-contrast-2-color has-text-color has-small-font-size" style="line-height:1.5">Created with and powered by <a href="https://wordpress.org" target="_blank" rel="noopener noreferrer">WordPress</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->]]></content:encoded>
+<!-- wp:navigation-link {"label":"Kontakt","url":"/#kontakt","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>197</wp:post_id>
-		<wp:post_date><![CDATA[2026-03-14 17:01:57]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2026-03-14 16:01:57]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-14 17:01:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-14 16:01:57]]></wp:post_modified_gmt>
+		<wp:post_id>198</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-17 12:21:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-17 11:21:40]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-17 12:24:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-17 11:24:37]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[footer]]></wp:post_name>
+		<wp:post_name><![CDATA[menue]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_template_part]]></wp:post_type>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="gerdes-wollmann"><![CDATA[gerdes-wollmann]]></category>
-		<category domain="wp_template_part_area" nicename="uncategorized"><![CDATA[uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[theme]]></wp:meta_value>
+														</item>
+					<item>
+		<title><![CDATA[Impressum]]></title>
+		<link>https://gerdes-wollmann.test/impressum/</link>
+		<pubDate>Tue, 17 Mar 2026 11:41:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/?page_id=215</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>215</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-17 12:41:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-17 11:41:57]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-17 12:41:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-17 11:41:57]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[impressum]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Datenschutz]]></title>
+		<link>https://gerdes-wollmann.test/datenschutz/</link>
+		<pubDate>Tue, 17 Mar 2026 11:42:08 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/?page_id=217</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>217</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-17 12:42:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-17 11:42:08]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-17 12:42:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-17 11:42:08]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[datenschutz]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Bildschirmfoto vom 2026-03-17 12-51-38]]></title>
+		<link>https://gerdes-wollmann.test/bildschirmfoto-vom-2026-03-17-12-51-38/</link>
+		<pubDate>Tue, 17 Mar 2026 11:52:21 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>220</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-17 12:52:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-17 11:52:21]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-17 12:52:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-17 11:52:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bildschirmfoto-vom-2026-03-17-12-51-38]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:7:{s:5:"width";i:2560;s:6:"height";i:1710;s:4:"file";s:57:"2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled.png";s:8:"filesize";i:3776327;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:50:"Bildschirmfoto-vom-2026-03-17-12-51-38-300x200.png";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:108272;}s:5:"large";a:5:{s:4:"file";s:51:"Bildschirmfoto-vom-2026-03-17-12-51-38-1024x684.png";s:5:"width";i:1024;s:6:"height";i:684;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:907920;}s:9:"thumbnail";a:5:{s:4:"file";s:50:"Bildschirmfoto-vom-2026-03-17-12-51-38-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:44361;}s:12:"medium_large";a:5:{s:4:"file";s:50:"Bildschirmfoto-vom-2026-03-17-12-51-38-768x513.png";s:5:"width";i:768;s:6:"height";i:513;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:562246;}s:9:"1536x1536";a:5:{s:4:"file";s:52:"Bildschirmfoto-vom-2026-03-17-12-51-38-1536x1026.png";s:5:"width";i:1536;s:6:"height";i:1026;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1731709;}s:9:"2048x2048";a:5:{s:4:"file";s:52:"Bildschirmfoto-vom-2026-03-17-12-51-38-2048x1368.png";s:5:"width";i:2048;s:6:"height";i:1368;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:2702512;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:42:"Bildschirmfoto-vom-2026-03-17-12-51-38.png";}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
+					<item>
+		<title><![CDATA[Menü 2]]></title>
+		<link>https://gerdes-wollmann.test/2026/03/17/menue-2/</link>
+		<pubDate>Tue, 17 Mar 2026 12:09:58 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=225</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Impressum","type":"page","id":215,"url":"https://gerdes-wollmann.test/impressum/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Datenschutz","type":"page","id":217,"url":"https://gerdes-wollmann.test/datenschutz/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>225</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-17 13:09:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-17 12:09:58]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-03-17 13:09:58]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-17 12:09:58]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menue-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_navigation]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
 				</channel>
 </rss>
 	
