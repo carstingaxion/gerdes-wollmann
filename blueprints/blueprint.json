@@ -13,13 +13,6 @@
         "step": "setSiteLanguage",
         "language": "de_DE"
     },
-    {
-      "step": "updateUserMeta",
-      "meta": {
-        "admin_bar_front": "0"
-      },
-      "userId": 1
-    },
      {
       "step": "setSiteOptions",
       "options": {
@@ -78,24 +71,6 @@
         "weight": 10,
 				"caption": "Deleting the WordPress default content."
 			}
-    },
-    {
-      "step": "wp-cli",
-      "command": " wp plugin delete hello-dolly",
-      "progress": {
-        "weight": 10,
-				"caption": "Deleting the WordPress default plugins."
-			}
-    },
-    {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "wordpress.org/plugins",
-        "slug": "create-block-theme"
-      },
-      "options": {
-        "activate": true
-      }
     },
     {
       "step": "installPlugin",
@@ -160,7 +135,14 @@
                 "resource": "url",
                 "url": "https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/refs/heads/main/wp-content/gerdes-wollmann-main/export.xml"
             }
-        }
+    },
+    {
+      "step": "updateUserMeta",
+      "meta": {
+        "admin_bar_front": "0"
+      },
+      "userId": 1
+    }
   ]
 }
 
