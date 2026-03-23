@@ -100,16 +100,16 @@
 				"minViewportWidth": "320px"
 			},
 			"fontFamilies": [
-				{
-					"fontFamily": "'Cormorant Garamond', Georgia, serif",
-					"name": "Heading",
-					"slug": "heading"
-				},
-				{
-					"fontFamily": "'Cormorant Garamond', Georgia, serif",
-					"name": "Body",
-					"slug": "body"
-				}
+                {
+                    "fontFamily": "'Outfit', 'Helvetica Neue', sans-serif",
+                    "slug": "heading",
+                    "name": "Heading"
+                },
+                {
+                    "fontFamily": "'Nunito Sans', 'Helvetica Neue', sans-serif",
+                    "slug": "body",
+                    "name": "Body"
+                }
 			],
 			"fontSizes": [
 				{

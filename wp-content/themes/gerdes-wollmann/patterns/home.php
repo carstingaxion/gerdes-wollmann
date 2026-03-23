@@ -7,13 +7,12 @@
 ?>
 <!-- wp:template-part {"slug":"front-page-header"} /-->
 
-<!-- wp:group {"className":"gw-hero gw-dot-pattern","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<!-- wp:group {"className":"gw-hero gw-dot-pattern","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px","contentSize":"960px"}} -->
 <div class="wp-block-group gw-hero gw-dot-pattern has-base-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"gw-hero-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns gw-hero-columns"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":1,"className":"gw-practice-name","style":{"typography":{"fontWeight":"300","lineHeight":"0.95","letterSpacing":"-0.03em"}},"fontSize":"huge"} -->
-<h1 class="wp-block-heading gw-practice-name has-huge-font-size" style="font-weight:300;letter-spacing:-0.03em;line-height:0.95"><?php /* Translators: 1. is a 'br' HTML element, 2. is the start of a 'em' HTML element, 3. is the end of a 'em' HTML element */ 
-echo sprintf( esc_html__( 'Gerdes%1$s%2$s&%3$s Wollmann', 'gerdes-wollmann' ), '<br>', '<em>', '</em>' ); ?></h1>
+<h1 class="wp-block-heading gw-practice-name has-huge-font-size" style="font-weight:300;letter-spacing:-0.03em;line-height:0.95">Gerdes<br><em>&amp;</em> Wollmann</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"gw-subtitle","style":{"typography":{"letterSpacing":"0.15em","textTransform":"uppercase","fontWeight":"400"},"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|40"}}},"textColor":"accent-3","fontSize":"medium"} -->
