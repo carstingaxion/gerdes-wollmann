@@ -1,13 +1,14 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "preferredVersions": {
-    "php": "8.2",
+    "php": "8.3",
     "wp": "latest"
   },
   "features": {
     "networking": true
   },
   "landingPage": "/",
+  "login": false,
   "steps": [
     {
         "step": "setSiteLanguage",
@@ -113,35 +114,12 @@
         "caption": "Installing theme from GitHub: carstingaxion/gerdes-wollmann (main)"
       }
     },
-        {
-      "step": "wp-cli",
-      "command": " wp theme delete twentytwentyfive",
-      "progress": {
-        "weight": 10,
-				"caption": "Deleting the WordPress default themes."
-			}
-    },
-        {
-      "step": "writeFile",
-      "path": "/wordpress/wp-content/mu-plugins/wordpress-export-to-server.php",
-      "data": {
-        "resource": "url",
-        "url": "https://raw.githubusercontent.com/carstingaxion/wordpress-export-to-server/main/wordpress-export-to-server.php"
-      }
-    },
     {
             "step": "importWxr",
             "file": {
                 "resource": "url",
                 "url": "https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/refs/heads/main/wp-content/gerdes-wollmann-main/export.xml"
             }
-    },
-    {
-      "step": "updateUserMeta",
-      "meta": {
-        "admin_bar_front": "0"
-      },
-      "userId": 1
     }
   ]
 }

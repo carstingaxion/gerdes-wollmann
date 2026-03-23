@@ -1,7 +1,7 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "preferredVersions": {
-    "php": "8.2",
+    "php": "8.3",
     "wp": "latest"
   },
   "features": {
@@ -12,13 +12,6 @@
     {
         "step": "setSiteLanguage",
         "language": "de_DE"
-    },
-    {
-      "step": "updateUserMeta",
-      "meta": {
-        "admin_bar_front": "0"
-      },
-      "userId": 1
     },
      {
       "step": "setSiteOptions",
