@@ -1,0 +1,151 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "Open Door",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "base",
+                    "color": "#FAF7F3",
+                    "name": "Base"
+                },
+                {
+                    "slug": "base-2",
+                    "color": "#FFFFFF",
+                    "name": "Base 2"
+                },
+                {
+                    "slug": "contrast",
+                    "color": "#1C2541",
+                    "name": "Contrast"
+                },
+                {
+                    "slug": "contrast-2",
+                    "color": "#3A4F7A",
+                    "name": "Contrast 2"
+                },
+                {
+                    "slug": "accent-1",
+                    "color": "#C05621",
+                    "name": "Accent 1"
+                },
+                {
+                    "slug": "accent-2",
+                    "color": "#E8945A",
+                    "name": "Accent 2"
+                },
+                {
+                    "slug": "accent-3",
+                    "color": "#5B7B9A",
+                    "name": "Accent 3"
+                },
+                {
+                    "slug": "accent-4",
+                    "color": "#EDE8E1",
+                    "name": "Accent 4"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Fraunces', Georgia, serif",
+                    "slug": "heading",
+                    "name": "Heading"
+                },
+                {
+                    "fontFamily": "'Work Sans', 'Helvetica Neue', sans-serif",
+                    "slug": "body",
+                    "name": "Body"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "lineHeight": "1.6"
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontWeight": "500",
+                    "lineHeight": "1.15"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.02em"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontWeight": "400",
+                    "letterSpacing": "-0.01em"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontWeight": "600"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontWeight": "600"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var:preset|color|accent-1"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var:preset|color|accent-3"
+                    }
+                }
+            }
+        },
+        "blocks": {
+            "core/paragraph": {
+                "typography": {
+                    "fontStyle": "normal"
+                }
+            },
+            "core/button": {
+                "border": {
+                    "radius": "6px"
+                },
+                "color": {
+                    "background": "var:preset|color|accent-1",
+                    "text": "var:preset|color|base-2"
+                },
+                "variations": {
+                    "outline": {
+                        "border": {
+                            "color": "var:preset|color|accent-1"
+                        },
+                        "color": {
+                            "text": "var:preset|color|accent-1"
+                        }
+                    }
+                }
+            },
+            "core/separator": {
+                "color": {
+                    "text": "var:preset|color|accent-3"
+                }
+            },
+            "core/quote": {
+                "border": {
+                    "color": "var:preset|color|accent-1"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "color": "var:preset|color|accent-1"
+                }
+            }
+        }
+    }
+}

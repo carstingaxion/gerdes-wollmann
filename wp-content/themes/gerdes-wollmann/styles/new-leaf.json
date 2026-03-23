@@ -1,0 +1,151 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "New Leaf",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "base",
+                    "color": "#F9FBFA",
+                    "name": "Base"
+                },
+                {
+                    "slug": "base-2",
+                    "color": "#FFFFFF",
+                    "name": "Base 2"
+                },
+                {
+                    "slug": "contrast",
+                    "color": "#1B2D2A",
+                    "name": "Contrast"
+                },
+                {
+                    "slug": "contrast-2",
+                    "color": "#3D5955",
+                    "name": "Contrast 2"
+                },
+                {
+                    "slug": "accent-1",
+                    "color": "#0D9488",
+                    "name": "Accent 1"
+                },
+                {
+                    "slug": "accent-2",
+                    "color": "#5EEAD4",
+                    "name": "Accent 2"
+                },
+                {
+                    "slug": "accent-3",
+                    "color": "#F59E0B",
+                    "name": "Accent 3"
+                },
+                {
+                    "slug": "accent-4",
+                    "color": "#E8F0EE",
+                    "name": "Accent 4"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Outfit', 'Helvetica Neue', sans-serif",
+                    "slug": "heading",
+                    "name": "Heading"
+                },
+                {
+                    "fontFamily": "'Nunito Sans', 'Helvetica Neue', sans-serif",
+                    "slug": "body",
+                    "name": "Body"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "lineHeight": "1.6"
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontWeight": "600",
+                    "lineHeight": "1.15"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontWeight": "700",
+                    "letterSpacing": "-0.03em"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontWeight": "600",
+                    "letterSpacing": "-0.02em"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontWeight": "600"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontWeight": "600"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var:preset|color|accent-1"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var:preset|color|accent-3"
+                    }
+                }
+            }
+        },
+        "blocks": {
+            "core/paragraph": {
+                "typography": {
+                    "fontStyle": "normal"
+                }
+            },
+            "core/button": {
+                "border": {
+                    "radius": "8px"
+                },
+                "color": {
+                    "background": "var:preset|color|accent-1",
+                    "text": "var:preset|color|base-2"
+                },
+                "variations": {
+                    "outline": {
+                        "border": {
+                            "color": "var:preset|color|accent-1"
+                        },
+                        "color": {
+                            "text": "var:preset|color|accent-1"
+                        }
+                    }
+                }
+            },
+            "core/separator": {
+                "color": {
+                    "text": "var:preset|color|accent-2"
+                }
+            },
+            "core/quote": {
+                "border": {
+                    "color": "var:preset|color|accent-1"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "color": "var:preset|color|accent-1"
+                }
+            }
+        }
+    }
+}
