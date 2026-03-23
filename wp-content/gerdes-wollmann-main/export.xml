@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.9.4" created="2026-03-17 12:35" -->
+	<!-- generator="WordPress/6.9.4" created="2026-03-23 08:54" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Gerdes &#38; Wollmann</title>
 	<link>https://gerdes-wollmann.test</link>
 	<description>Gemeinschaftspraxis</description>
-	<pubDate>Tue, 17 Mar 2026 12:35:46 +0000</pubDate>
+	<pubDate>Mon, 23 Mar 2026 08:54:38 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://gerdes-wollmann.test</wp:base_site_url>
@@ -51,7 +51,7 @@
 		<wp:term_name><![CDATA[gerdes-wollmann]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>4</wp:term_id>
+		<wp:term_id>3</wp:term_id>
 		<wp:term_taxonomy><![CDATA[wp_template_part_area]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[header]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -65,7 +65,7 @@
 		<wp:term_name><![CDATA[Uncategorized]]></wp:term_name>
 	</wp:term>
 		<wp:term>
-		<wp:term_id>3</wp:term_id>
+		<wp:term_id>4</wp:term_id>
 		<wp:term_taxonomy><![CDATA[wp_template_part_area]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
@@ -176,6 +176,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
@@ -189,8 +197,8 @@
 		<wp:post_id>174</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:48:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:48:43]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-17 13:35:32]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-17 12:35:32]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-23 09:54:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-23 08:54:22]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-gerdes-wollmann]]></wp:post_name>
@@ -233,6 +241,14 @@
 		<wp:is_sticky>1</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -334,6 +350,14 @@
 		<wp:is_sticky>1</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -507,6 +531,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Menü]]></title>
@@ -515,17 +547,17 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=198</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Sprechzeiten","url":"/#sprechzeiten","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Sprechzeiten","url":"\/scope:happy-busy-park\/#sprechzeiten","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"Aktuelles","url":"/#aktuelles","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"Aktuelles","url":"\/scope:happy-busy-park\/#aktuelles","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"Kontakt","url":"/#kontakt","kind":"custom"} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"Kontakt","url":"\/scope:happy-busy-park\/#kontakt","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>198</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-17 12:21:40]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-17 11:21:40]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-17 12:24:37]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-17 11:24:37]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-03-17 12:21:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-03-17 11:21:40]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[menue]]></wp:post_name>
@@ -589,7 +621,7 @@
 		<link>https://gerdes-wollmann.test/bildschirmfoto-vom-2026-03-17-12-51-38/</link>
 		<pubDate>Tue, 17 Mar 2026 11:52:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38.png</guid>
+		<guid isPermaLink="false">https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -607,14 +639,14 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled.png]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:7:{s:5:"width";i:2560;s:6:"height";i:1710;s:4:"file";s:57:"2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled.png";s:8:"filesize";i:3776327;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:50:"Bildschirmfoto-vom-2026-03-17-12-51-38-300x200.png";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:108272;}s:5:"large";a:5:{s:4:"file";s:51:"Bildschirmfoto-vom-2026-03-17-12-51-38-1024x684.png";s:5:"width";i:1024;s:6:"height";i:684;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:907920;}s:9:"thumbnail";a:5:{s:4:"file";s:50:"Bildschirmfoto-vom-2026-03-17-12-51-38-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:44361;}s:12:"medium_large";a:5:{s:4:"file";s:50:"Bildschirmfoto-vom-2026-03-17-12-51-38-768x513.png";s:5:"width";i:768;s:6:"height";i:513;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:562246;}s:9:"1536x1536";a:5:{s:4:"file";s:52:"Bildschirmfoto-vom-2026-03-17-12-51-38-1536x1026.png";s:5:"width";i:1536;s:6:"height";i:1026;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1731709;}s:9:"2048x2048";a:5:{s:4:"file";s:52:"Bildschirmfoto-vom-2026-03-17-12-51-38-2048x1368.png";s:5:"width";i:2048;s:6:"height";i:1368;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:2702512;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:42:"Bildschirmfoto-vom-2026-03-17-12-51-38.png";}]]></wp:meta_value>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2560;s:6:"height";i:1710;s:4:"file";s:59:"2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1.png";s:8:"filesize";i:3776327;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:59:"Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1-300x200.png";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:108194;}s:5:"large";a:5:{s:4:"file";s:60:"Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1-1024x684.png";s:5:"width";i:1024;s:6:"height";i:684;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:904296;}s:9:"thumbnail";a:5:{s:4:"file";s:59:"Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:44348;}s:12:"medium_large";a:5:{s:4:"file";s:59:"Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1-768x513.png";s:5:"width";i:768;s:6:"height";i:513;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:561467;}s:9:"1536x1536";a:5:{s:4:"file";s:61:"Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1-1536x1026.png";s:5:"width";i:1536;s:6:"height";i:1026;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1721308;}s:9:"2048x2048";a:5:{s:4:"file";s:61:"Bildschirmfoto-vom-2026-03-17-12-51-38-scaled-1-2048x1368.png";s:5:"width";i:2048;s:6:"height";i:1368;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:2685447;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -624,9 +656,9 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=225</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Impressum","type":"page","id":215,"url":"https://gerdes-wollmann.test/impressum/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Impressum","type":"page","id":215,"url":"https:\/\/playground.wordpress.net\/scope:happy-busy-park\/impressum\/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core\/post-data","args":{"field":"link"}}}}} /-->
 
-<!-- wp:navigation-link {"label":"Datenschutz","type":"page","id":217,"url":"https://gerdes-wollmann.test/datenschutz/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"Datenschutz","type":"page","id":217,"url":"https:\/\/playground.wordpress.net\/scope:happy-busy-park\/datenschutz\/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core\/post-data","args":{"field":"link"}}}}} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>225</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-17 13:09:58]]></wp:post_date>
