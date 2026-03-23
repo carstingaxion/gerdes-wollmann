@@ -128,8 +128,7 @@
     {
       "step": "writeFile",
       "path": "/wordpress/wp-content/mu-plugins/mu-plugin-0.php",
-      "data": "<?php wp_logout();"
-    }
+      "data": "<?php add_action('init', function( string $plugin ) { wp_logout(); } );"    }
   ]
 }
 
