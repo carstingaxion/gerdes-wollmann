@@ -13,6 +13,13 @@
         "step": "setSiteLanguage",
         "language": "de_DE"
     },
+    {
+      "step": "updateUserMeta",
+      "meta": {
+        "admin_bar_front": "0"
+      },
+      "userId": 1
+    },
      {
       "step": "setSiteOptions",
       "options": {
