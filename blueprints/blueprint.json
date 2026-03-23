@@ -120,6 +120,15 @@
                 "resource": "url",
                 "url": "https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/refs/heads/main/wp-content/gerdes-wollmann-main/export.xml"
             }
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/mu-plugins"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/mu-plugin-0.php",
+      "data": "<?php wp_logout();"
     }
   ]
 }
