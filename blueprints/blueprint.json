@@ -4,36 +4,72 @@
     "php": "8.2",
     "wp": "latest"
   },
-  "phpExtensionBundles": [
-    "kitchen-sink"
-  ],
   "features": {
     "networking": true
   },
-  "landingPage": "https://playground.wordpress.net/wp-admin/edit.php",
+  "landingPage": "/",
   "steps": [
+    {
+        "step": "setSiteLanguage",
+        "language": "de_DE"
+    },
+    {
+      "step": "updateUserMeta",
+      "meta": {
+        "admin_bar_front": "0"
+      },
+      "userId": 1
+    },
      {
       "step": "setSiteOptions",
       "options": {
-        "blogname": "gerdes-wollmann",
-        "blogdescription": "CRUD the gerdes-wollmann in Playground.",
+        "blogname": "Gerdes & Wollmann",
+        "blogdescription": "Gemeinschaftspraxis",
         "wordpress_export_to_server__owner_repo_branch": "carstingaxion/gerdes-wollmann/main",
-        "wordpress_export_to_server__export_home": "https://gerdes-wollmann.test"
+        "wordpress_export_to_server__export_home": "https://gerdes-wollmann.test",
+        "timezone_string": "Europe/Berlin",
+        "date_format": "d. F Y",
+        "time_format": "H:i",
+        "start_of_week": "1",
+        				"telex_hours_seasons": [
+					{
+						"name": "Sprechzeiten",
+						"beginDate": "2026-03-01",
+						"endDate": "2050-12-31",
+						"hours": {
+							"mon": [
+								{ "open": "08:00", "close": "11:30" },
+								{ "open": "15:00", "close": "17:00" }
+							],
+							"tue": [
+								{ "open": "08:00", "close": "11:30" },
+								{ "open": "15:00", "close": "17:00" }
+							],
+							"wed": [
+								{ "open": "08:00", "close": "11:30" }
+							],
+							"thu": [
+								{ "open": "08:00", "close": "11:30" },
+								{ "open": "15:00", "close": "17:00" }
+							],
+							"fri": [
+								{ "open": "08:00", "close": "11:30" }
+							]
+						}
+					}
+				]
       }
     },
     {
       "step": "defineWpConfigConsts",
       "consts": {
-          "UPLOADS": "wp-content/uploads"
+          "UPLOADS": "wp-content/uploads",
+          "CORE_UPGRADE_SKIP_NEW_BUNDLED": true
       }
     },
     {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; add_filter( 'import_allow_fetch_attachments', '__return_false' );"
-    },
-    {
-      "step": "login",
-      "username": "admin"
+      "code": "<?php require '/wordpress/wp-load.php'; add_filter( 'import_allow_fetch_attachments', '__return_true' );"
     },
     {
       "step": "wp-cli",
@@ -44,27 +80,73 @@
 			}
     },
     {
-      "step": "writeFile",
-      "path": "/wordpress/wp-content/gerdes-wollmann.zip",
-      "data": {
-        "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=carstingaxion/gerdes-wollmann",
-        "caption": "Downloading gerdes-wollmann repository."
-      },
+      "step": "wp-cli",
+      "command": " wp plugin delete hello-dolly",
       "progress": {
-        "weight": 2,
-        "caption": "Applying gerdes-wollmann files."
+        "weight": 10,
+				"caption": "Deleting the WordPress default plugins."
+			}
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "create-block-theme"
+      },
+      "options": {
+        "activate": true
       }
     },
     {
-      "step": "unzip",
-      "zipFile": {
-        "resource": "vfs",
-        "path": "/wordpress/wp-content/gerdes-wollmann.zip"
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "view-transitions"
       },
-      "extractToPath": "/wordpress/wp-content"
+      "options": {
+        "activate": true
+      }
     },
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/carstingaxion/todays-hours-plugin",
+				"ref": "HEAD"
+			},
+			"options": {
+				"activate": true
+			},
+			"progress": {
+				"caption": "Installing plugin from GitHub: carstingaxion/todays-hours-plugin"
+			}
+		},
     {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "git:directory",
+        "url": "https://github.com/carstingaxion/gerdes-wollmann",
+        "ref": "main",
+        "refType": "branch",
+        "path": "wp-content/themes/gerdes-wollmann"
+      },
+      "options": {
+        "activate": true,
+        "targetFolderName": "gerdes-wollmann"
+      },
+      "progress": {
+        "caption": "Installing theme from GitHub: carstingaxion/gerdes-wollmann (main)"
+      }
+    },
+        {
+      "step": "wp-cli",
+      "command": " wp theme delete twentytwentyfive",
+      "progress": {
+        "weight": 10,
+				"caption": "Deleting the WordPress default themes."
+			}
+    },
+        {
       "step": "writeFile",
       "path": "/wordpress/wp-content/mu-plugins/wordpress-export-to-server.php",
       "data": {
@@ -73,15 +155,13 @@
       }
     },
     {
-      "step": "installPlugin",
-      "pluginData": {
-        "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=humanmade/WordPress-Importer"
-      }
-    },
-    {
-      "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php';$path = realpath( '/wordpress/wp-content/gerdes-wollmann-main/export.xml' );$logger = new WP_Importer_Logger_CLI();$logger->min_level = 'info';$options = array( 'fetch_attachments' => false, 'default_author' => 1,);$importer = new WXR_Importer( $options );$importer->set_logger( $logger );$result = $importer->import( $path );"
-    }
+            "step": "importWxr",
+            "file": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/refs/heads/main/wp-content/gerdes-wollmann-main/export.xml"
+            }
+        }
   ]
 }
+
+

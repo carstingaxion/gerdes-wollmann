@@ -95,4 +95,4 @@ https://github.com/GatherPress/gatherpress-demo-data
 [export-to-github]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/blueprints/blueprint-v2.json&gh-ensure-auth=yes&ghexport-repo-url=https://github.com/carstingaxion/gerdes-wollmann&ghexport-pr-action=create&ghexport-playground-root=/wordpress/wp-content&ghexport-repo-root=wp-content&ghexport-content-type=custom-paths&ghexport-path=/themes&ghexport-path=/uploads&ghexport-path=/gerdes-wollmann-main&ghexport-commit-message=Changes%20from%20Playground&ghexport-allow-include-zip=no
 
 
-[seamless]: https://playground.wordpress.net/?mode=seamless&url=/&blueprint-url=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/blueprints/blueprint-v2.json
+[seamless]: https://playground.wordpress.net/?mode=seamless&url=/&blueprint-url=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/blueprints/blueprint.json
