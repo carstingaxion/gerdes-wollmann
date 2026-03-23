@@ -4,9 +4,8 @@
 
 - [Create, read update, delete & save][export-to-github] `gerdes-wollmann` using Playground and persist it with prepared settings for GitHub Export.
 - or simply browse & view ...
-   - [`gerdes-wollmann` with *Twentytwentyfour*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/export.xml).
-   - [`gerdes-wollmann` with *Disco*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/export.xml&theme=disco).
-   - [`gerdes-wollmann` with *Ollie*](https://playground.wordpress.net/?url=/?p=173&login=yes&import-wxr=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/export.xml&theme=ollie).
+   - [`gerdes-wollmann` in *seamless* mode][seamless].
+
 
 ### You should create a new repository from [this template](https://github.com/new?template_name=crud-the-docs-playground&template_owner=carstingaxion) for yourself, if you'd like to ...
 
@@ -90,7 +89,10 @@ https://github.com/GatherPress/gatherpress-demo-data
 
 
 
-[builder]: https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/blueprints/blueprint.json
+[builder]: https://playground.wordpress.net/builder/builder.html?blueprint-url=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/blueprints/blueprint-v2.json
 
 
 [export-to-github]: https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/blueprints/blueprint-v2.json&gh-ensure-auth=yes&ghexport-repo-url=https://github.com/carstingaxion/gerdes-wollmann&ghexport-pr-action=create&ghexport-playground-root=/wordpress/wp-content&ghexport-repo-root=wp-content&ghexport-content-type=custom-paths&ghexport-path=/themes&ghexport-path=/uploads&ghexport-path=/gerdes-wollmann-main&ghexport-commit-message=Changes%20from%20Playground&ghexport-allow-include-zip=no
+
+
+[seemless]: https://playground.wordpress.net/?mode=seamless&url=/&blueprint-url=https://raw.githubusercontent.com/carstingaxion/gerdes-wollmann/main/blueprints/blueprint-v2.json
