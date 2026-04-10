@@ -16,32 +16,32 @@
 					"slug": "base-2"
 				},
 				{
-					"color": "#1B2D2A",
+					"color": "#191f0f",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#3D5955",
+					"color": "#2b3913",
 					"name": "Contrast 2",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#0D9488",
+					"color": "#719a28",
 					"name": "Accent 1",
 					"slug": "accent-1"
 				},
 				{
-					"color": "#5EEAD4",
+					"color": "#bce17a",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#F59E0B",
+					"color": "#a6a02b",
 					"name": "Accent 3",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#E8F0EE",
+					"color": "#f2ec83",
 					"name": "Accent 4",
 					"slug": "accent-4"
 				}
@@ -540,8 +540,9 @@
 					"text": "var(--wp--preset--color--contrast)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--heading)",
-					"fontWeight": "600",
+					"fontFamily": "var(--wp--preset--font-family--cormorant-garamond)",
+					"fontStyle": "normal",
+					"fontWeight": "500",
 					"lineHeight": "1.15"
 				}
 			},
@@ -557,7 +558,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontFamily": "var(--wp--preset--font-family--quicksand)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "1.6"
 		}
