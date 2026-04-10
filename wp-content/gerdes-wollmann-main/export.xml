@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.9.4" created="2026-03-23 09:31" -->
+	<!-- generator="WordPress/6.9.4" created="2026-04-10 07:32" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Gerdes &#38; Wollmann</title>
 	<link>https://gerdes-wollmann.test</link>
 	<description>Gemeinschaftspraxis</description>
-	<pubDate>Mon, 23 Mar 2026 09:31:39 +0000</pubDate>
+	<pubDate>Fri, 10 Apr 2026 07:32:32 +0000</pubDate>
 	<language>de</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://gerdes-wollmann.test</wp:base_site_url>
@@ -184,6 +184,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
@@ -197,8 +205,8 @@
 		<wp:post_id>174</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-06 15:48:43]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-03-06 15:48:43]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-03-23 10:31:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-03-23 09:31:25]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-04-10 09:31:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-04-10 07:31:54]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[wp-global-styles-gerdes-wollmann]]></wp:post_name>
@@ -241,6 +249,14 @@
 		<wp:is_sticky>1</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -350,6 +366,14 @@
 		<wp:is_sticky>1</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
 		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
@@ -539,6 +563,14 @@
 		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_pingme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_encloseme]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Menü]]></title>
@@ -547,11 +579,11 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://gerdes-wollmann.test/?p=198</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Sprechzeiten","url":"\/scope:confident-sunny-river\/#sprechzeiten","kind":"custom"} /-->
+		<content:encoded><![CDATA[<!-- wp:navigation-link {"label":"Sprechzeiten","url":"\/scope:happy-chic-lake\/scope:confident-sunny-river\/#sprechzeiten","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"Aktuelles","url":"\/scope:confident-sunny-river\/#aktuelles","kind":"custom"} /-->
+<!-- wp:navigation-link {"label":"Aktuelles","url":"\/scope:happy-chic-lake\/scope:confident-sunny-river\/#aktuelles","kind":"custom"} /-->
 
-<!-- wp:navigation-link {"label":"Kontakt","url":"\/scope:confident-sunny-river\/#kontakt","kind":"custom"} /-->]]></content:encoded>
+<!-- wp:navigation-link {"label":"Kontakt","url":"\/scope:happy-chic-lake\/scope:confident-sunny-river\/#kontakt","kind":"custom"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>198</wp:post_id>
 		<wp:post_date><![CDATA[2026-03-17 12:21:40]]></wp:post_date>
@@ -675,6 +707,110 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
+					<item>
+		<title><![CDATA[Quicksand]]></title>
+		<link>https://gerdes-wollmann.test/2026/04/10/quicksand/</link>
+		<pubDate>Fri, 10 Apr 2026 07:30:47 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/04/10/quicksand/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"fontFamily":"Quicksand, sans-serif","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.9\/previews\/quicksand\/quicksand.svg"}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>227</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-10 09:30:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-10 07:30:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-04-10 09:30:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-04-10 07:30:47]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[quicksand]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_font_family]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[quicksand;normal;500;100%;U+0-10FFFF]]></title>
+		<link>https://gerdes-wollmann.test/2026/04/10/quicksandnormal500100u0-10ffff/</link>
+		<pubDate>Fri, 10 Apr 2026 07:30:47 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/04/10/quicksandnormal500100u0-10ffff/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"src":"https:\/\/playground.wordpress.net\/scope:happy-chic-lake\/wp-content\/uploads\/fonts\/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18S0wx40QDw.woff2","fontWeight":"500","fontStyle":"normal","fontFamily":"Quicksand","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.9\/previews\/quicksand\/quicksand-500-normal.svg"}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>228</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-10 09:30:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-10 07:30:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-04-10 09:30:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-04-10 07:30:47]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[quicksandnormal500100u0-10ffff]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>227</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_font_face]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_font_face_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkM0o18S0wx40QDw.woff2]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Cormorant Garamond]]></title>
+		<link>https://gerdes-wollmann.test/2026/04/10/cormorant-garamond/</link>
+		<pubDate>Fri, 10 Apr 2026 07:31:16 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/04/10/cormorant-garamond/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"fontFamily":"\"Cormorant Garamond\", serif","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.9\/previews\/cormorant-garamond\/cormorant-garamond.svg"}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>230</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-10 09:31:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-10 07:31:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-04-10 09:31:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-04-10 07:31:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cormorant-garamond]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_font_family]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[cormorant garamond;normal;500;100%;U+0-10FFFF]]></title>
+		<link>https://gerdes-wollmann.test/2026/04/10/cormorant-garamondnormal500100u0-10ffff/</link>
+		<pubDate>Fri, 10 Apr 2026 07:31:16 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://gerdes-wollmann.test/2026/04/10/cormorant-garamondnormal500100u0-10ffff/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"src":"https:\/\/playground.wordpress.net\/scope:happy-chic-lake\/wp-content\/uploads\/fonts\/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2","fontWeight":"500","fontStyle":"normal","fontFamily":"\"Cormorant Garamond\"","preview":"https:\/\/s.w.org\/images\/fonts\/wp-6.9\/previews\/cormorant-garamond\/cormorant-garamond-500-normal.svg"}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>231</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-10 09:31:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-10 07:31:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2026-04-10 09:31:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-04-10 07:31:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cormorant-garamondnormal500100u0-10ffff]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>230</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_font_face]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_font_face_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_s06GnbEi_s4Mfs.woff2]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 				</channel>
 </rss>
 	
