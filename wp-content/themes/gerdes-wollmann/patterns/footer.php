@@ -6,24 +6,20 @@
  */
 ?>
 <!-- wp:group {"className":"gw-footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"backgroundColor":"contrast","textColor":"base-2","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div id="kontakt" class="wp-block-group gw-footer has-base-2-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"verticalAlignment":null,"className":"gw-footer-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns gw-footer-columns"><!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"500","lineHeight":"1","fontStyle":"normal"}},"textColor":"base","fontSize":"x-large","fontFamily":"quicksand"} -->
+<div id="kontakt" class="wp-block-group gw-footer has-base-2-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"className":"gw-footer-columns","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns gw-footer-columns"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"level":3,"style":{"typography":{"fontWeight":"500","lineHeight":"1","fontStyle":"normal"}},"textColor":"base","fontSize":"x-large","fontFamily":"quicksand"} -->
 <h3 class="wp-block-heading has-base-color has-text-color has-quicksand-font-family has-x-large-font-size" style="font-style:normal;font-weight:500;line-height:1"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element, 3. is the start of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
-echo sprintf( esc_html__( '%1$sGerdes %2$sund%3$s Wollmann%4$s', 'gerdes-wollmann' ), '<strong>', '</strong>', '<strong>', '</strong>' ); ?></h3>
+echo sprintf( esc_html__( '%1$sGerdes %2$sund %3$sWollmann%4$s', 'gerdes-wollmann' ), '<strong>', '</strong>', '<strong>', '</strong>' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"letterSpacing":"0.15em","textTransform":"uppercase"},"spacing":{"margin":{"top":"0.5rem"}},"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"small"} -->
 <p class="has-accent-4-color has-text-color has-link-color has-small-font-size" style="margin-top:0.5rem;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e('Fachärztinnnen für Allgemeinmedizin', 'gerdes-wollmann');?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.7"},"spacing":{"margin":{"top":"1.25rem"}}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="margin-top:1.25rem;line-height:1.7"><?php esc_html_e('Ihre Gesundheit in vertrauten Händen. Persönlich, nahbar und seit Jahren Teil Ihrer Nachbarschaft.', 'gerdes-wollmann');?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom","width":"30%"} -->
-<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
+<!-- wp:column {"verticalAlignment":"bottom","width":"25%"} -->
+<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:25%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"}},"textColor":"accent-1","fontSize":"small"} -->
 <h4 class="wp-block-heading has-accent-1-color has-text-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase"><?php esc_html_e('Kontakt', 'gerdes-wollmann');?></h4>
 <!-- /wp:heading -->
 
@@ -38,8 +34,8 @@ echo sprintf( esc_html__( '%1$s0345 678 23 33%2$s%3$s%4$spraxis@gerdes-wollmann.
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"top","width":"30%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:30%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"textColor":"accent-1","fontSize":"small"} -->
+<!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
+<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:heading {"level":4,"style":{"typography":{"letterSpacing":"0.16em","textTransform":"uppercase","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|accent-1"}}}},"textColor":"accent-1","fontSize":"small"} -->
 <h4 class="wp-block-heading has-accent-1-color has-text-color has-link-color has-small-font-size" style="font-weight:500;letter-spacing:0.16em;text-transform:uppercase"><?php esc_html_e('Heute', 'gerdes-wollmann');?></h4>
 <!-- /wp:heading -->
 
