@@ -7,9 +7,11 @@
 ?>
 <!-- wp:template-part {"slug":"front-page-header"} /-->
 
-<!-- wp:group {"className":"gw-hero gw-dot-pattern","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base","layout":{"type":"constrained","wideSize":"1280px","contentSize":"960px"}} -->
-<div class="wp-block-group gw-hero gw-dot-pattern has-base-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":1,"className":"gw-practice-name","style":{"typography":{"fontWeight":"500","lineHeight":"0.95","letterSpacing":"-0.03em","fontStyle":"normal"}},"fontSize":"huge","fontFamily":"quicksand"} -->
-<h1 class="wp-block-heading gw-practice-name has-quicksand-font-family has-huge-font-size" style="font-style:normal;font-weight:500;letter-spacing:-0.03em;line-height:0.95"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element, 3. is the start of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:cover {"url":"https://playground.wordpress.net/scope:happy-chic-lake/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-1024x684.png","hasParallax":true,"dimRatio":90,"overlayColor":"base","isUserOverlayColor":true,"isDark":false,"sizeSlug":"large","align":"full"} -->
+<div class="wp-block-cover alignfull is-light has-parallax"><div class="wp-block-cover__image-background  size-large has-parallax" style="background-position:50% 50%;background-image:url(https://playground.wordpress.net/scope:happy-chic-lake/wp-content/uploads/2026/03/Bildschirmfoto-vom-2026-03-17-12-51-38-1024x684.png)"></div><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-90 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"gw-hero gw-dot-pattern","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px","contentSize":"960px"}} -->
+<div class="wp-block-group gw-hero gw-dot-pattern" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":1,"className":"gw-practice-name","style":{"typography":{"fontWeight":"500","lineHeight":"0.95","letterSpacing":"-0.03em","fontStyle":"normal"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"huge","fontFamily":"quicksand"} -->
+<h1 class="wp-block-heading gw-practice-name has-contrast-color has-text-color has-link-color has-quicksand-font-family has-huge-font-size" style="font-style:normal;font-weight:500;letter-spacing:-0.03em;line-height:0.95"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element, 3. is the start of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
 echo sprintf( esc_html__( '%1$sGerdes %2$sund %3$sWollmann%4$s', 'gerdes-wollmann' ), '<strong>', '</strong>', '<strong>', '</strong>' ); ?></h1>
 <!-- /wp:heading -->
 
@@ -42,6 +44,8 @@ echo sprintf( esc_html__( '%1$sGerdes %2$sund %3$sWollmann%4$s', 'gerdes-wollman
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:cover --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"gw-contact-strip","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"},"margin":{"top":"0"}}},"backgroundColor":"base-2","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
@@ -63,7 +67,7 @@ echo sprintf( esc_html__( '%1$s0345 678 23 33%2$s', 'gerdes-wollmann' ), '<a hre
 
 <!-- wp:paragraph -->
 <p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$spraxis@gerdes-wollmann.de%2$s', 'gerdes-wollmann' ), '<a href="' . esc_url( 'mailto:praxis@gerdes-wollmann.de' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sinfo@gerdes-wollmann.de%2$s', 'gerdes-wollmann' ), '<a href="' . esc_url( 'mailto:info@gerdes-wollmann.de' ) . '" data-type="mailto" data-id="mailto:info@gerdes-wollmann.de">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

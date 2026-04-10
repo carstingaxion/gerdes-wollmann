@@ -30,7 +30,7 @@ echo sprintf( esc_html__( 'Ludwig-Wucherer-Str. 10,%1$s06108 Halle (Saale)', 'ge
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.8"},"spacing":{"margin":{"top":"1rem"}}},"textColor":"accent-4","fontSize":"medium"} -->
 <p class="has-accent-4-color has-text-color has-medium-font-size" style="margin-top:1rem;line-height:1.8"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$s0345 678 23 33%2$s%3$s%4$spraxis@gerdes-wollmann.de%5$s', 'gerdes-wollmann' ), '<a href="' . esc_url( 'tel:03456782333' ) . '">', '</a>', '<br>', '<a href="' . esc_url( 'mailto:praxis@gerdes-wollmann.de' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$s0345 678 23 33%2$s%3$s%4$sinfo@gerdes-wollmann.de%5$s', 'gerdes-wollmann' ), '<a href="' . esc_url( 'tel:03456782333' ) . '">', '</a>', '<br>', '<a href="' . esc_url( 'mailto:info@gerdes-wollmann.de' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
