@@ -6,7 +6,7 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#F9FBFA",
+					"color": "#FAFAF5",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -16,32 +16,32 @@
 					"slug": "base-2"
 				},
 				{
-					"color": "#191f0f",
+					"color": "#2A2A2A",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#2b3913",
+					"color": "#5C5C52",
 					"name": "Contrast 2",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#719a28",
+					"color": "#8B9A3B",
 					"name": "Accent 1",
 					"slug": "accent-1"
 				},
 				{
-					"color": "#bce17a",
+					"color": "#A8B455",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#a6a02b",
+					"color": "#C9BC3F",
 					"name": "Accent 3",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#f2ec83",
+					"color": "#EEEDE4",
 					"name": "Accent 4",
 					"slug": "accent-4"
 				}
@@ -294,7 +294,7 @@
 				"elements": {
 					"caption": {
 						"color": {
-							"text": "var(--wp--preset--color--accent-3)"
+							"text": "var(--wp--preset--color--contrast-2)"
 						},
 						"typography": {
 							"fontSize": "var(--wp--preset--font-size--small)",
@@ -307,7 +307,7 @@
 				"elements": {
 					"caption": {
 						"color": {
-							"text": "var(--wp--preset--color--accent-3)"
+							"text": "var(--wp--preset--color--contrast-2)"
 						},
 						"typography": {
 							"fontSize": "var(--wp--preset--font-size--small)",
@@ -396,7 +396,7 @@
 				"elements": {
 					"cite": {
 						"color": {
-							"text": "var(--wp--preset--color--accent-3)"
+							"text": "var(--wp--preset--color--contrast-2)"
 						},
 						"typography": {
 							"fontSize": "var(--wp--preset--font-size--small)",
@@ -425,7 +425,7 @@
 				"elements": {
 					"cite": {
 						"color": {
-							"text": "var(--wp--preset--color--accent-3)"
+							"text": "var(--wp--preset--color--contrast-2)"
 						},
 						"typography": {
 							"fontSize": "var(--wp--preset--font-size--small)",
@@ -470,7 +470,7 @@
 				"elements": {
 					"caption": {
 						"color": {
-							"text": "var(--wp--preset--color--accent-3)"
+							"text": "var(--wp--preset--color--contrast-2)"
 						},
 						"typography": {
 							"fontSize": "var(--wp--preset--font-size--small)",

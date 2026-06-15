@@ -33,9 +33,9 @@ Tags: block-theme, full-site-editing, medical, elegant
 
 /* === Header divider line === */
 .gw-header-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, var(--wp--preset--color--accent-2), var(--wp--preset--color--accent-3), var(--wp--preset--color--accent-2), transparent);
-    opacity: 0.5;
+    height: 2px;
+    background: linear-gradient(to right, transparent 5%, var(--wp--preset--color--accent-1) 20%, var(--wp--preset--color--accent-1) 45%, var(--wp--preset--color--accent-3) 55%, var(--wp--preset--color--accent-3) 80%, transparent 95%);
+    opacity: 0.6;
     margin-top: 0.5rem;
 }
 
@@ -127,7 +127,7 @@ Tags: block-theme, full-site-editing, medical, elegant
     left: 1.5rem;
     right: 1.5rem;
     height: 2px;
-    background: linear-gradient(to right, var(--wp--preset--color--accent-2), var(--wp--preset--color--accent-1), var(--wp--preset--color--accent-2));
+    background: linear-gradient(to right, var(--wp--preset--color--accent-1), var(--wp--preset--color--accent-3), var(--wp--preset--color--accent-1));
     border-radius: 2px;
 }
 
