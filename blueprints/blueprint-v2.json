@@ -24,6 +24,7 @@
         "date_format": "d. F Y",
         "time_format": "H:i",
         "start_of_week": "1",
+        "site_logo": 235,
         				"telex_hours_seasons": [
 					{
 						"name": "Sprechzeiten",
