@@ -104,20 +104,16 @@
         "activate": true
       }
     },
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "git:directory",
-				"url": "https://github.com/carstingaxion/todays-hours-plugin",
-				"ref": "HEAD"
-			},
-			"options": {
-				"activate": true
-			},
-			"progress": {
-				"caption": "Installing plugin from GitHub: carstingaxion/todays-hours-plugin"
-			}
-		},
+    {
+      "step": "installPlugin",
+      "pluginData": {
+          "resource": "url",
+          "url": "https://github.com/carstingaxion/todays-hours-plugin/releases/latest/download/todays-hours-plugin.zip"
+      },
+      "options": {
+          "activate": true
+      }
+    },
     {
       "step": "installTheme",
       "themeData": {
